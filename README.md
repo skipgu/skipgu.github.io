@@ -1,14 +1,19 @@
-README
+## SKIP @ &#x1F310;
 
+Instructions for **local development**. Make sure to install `jekyll` according
+to [instructions](https://jekyllrb.com/docs/installation/).
 
-In order to run locally, make sure to install jekyll according to instructions https://jekyllrb.com/docs/installation/
+### Install dependencies
 
-run
+```sh
+$ bundle install
+```
 
-`bundle install`
+### Run (local level)
 
-followed by
+```sh
+$ bundle exec jekyll serve --config "_config.yml,_config_local.yml"`
+```
 
-`bundle exec jekyll serve --config "_config.yml,_config_local.yml"`
-
-The _config_local.yml file overrides the url, and makes it so the website is served locally. 
+The `_config_local.yml` file overrides the url, and makes it so the website is
+served locally. 
