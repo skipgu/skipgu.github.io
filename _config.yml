@@ -2,6 +2,9 @@ title: SKIP
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 url: https://skipgu.github.io/
 logo: /assets/icons/logo_skip_small.png
-twitter_username: ""
+twitter_username: "test"
 github_username: skipgu
 email: skip@gota.gu.se
+instagram_username: "skip.gu"
+linkedin_username: "company/skip-student-association"
+discord_link: "https://tinyurl.com/skip-discord"
