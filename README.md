@@ -1,5 +1,8 @@
 ## SKIP @ &#x1F310;
 
+The website is based on
+[this](https://github.com/mmistakes/jekyll-theme-basically-basic) template.
+
 Instructions for **local development**. Make sure to install `jekyll` according
 to [instructions](https://jekyllrb.com/docs/installation/).
 
