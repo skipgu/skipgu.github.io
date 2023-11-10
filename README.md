@@ -18,5 +18,11 @@ $ bundle install
 $ bundle exec jekyll serve --config "_config.yml,_config_local.yml"
 ```
 
+Or, more simply
+
+```sh
+$ ./scripts/dev.sh
+```
+
 The `_config_local.yml` file overrides the url, and makes it so the website is
 served locally. 
