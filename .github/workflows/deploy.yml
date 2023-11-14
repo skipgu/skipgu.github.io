@@ -42,6 +42,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      JEKYLL_ENV: production
     runs-on: ubuntu-latest
     needs: build
     steps:
