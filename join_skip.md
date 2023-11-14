@@ -18,4 +18,4 @@ If you're passionate about event planning, leadership, and making a significant 
 
 Should you have any questions or require further information, please don't hesitate to reach out to us at [_skip@gota.gu.se_](mailto:skip@gota.gu.se). We look forward to welcoming you as part of the SKIP family!
 
-![SKIP Logo](/assets/icons/logo_skip.png)
+<img src="/assets/icons/logo_skip.png" alt="Skip Logo" width="400">
