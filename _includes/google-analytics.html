@@ -1,12 +1,10 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-96M5M9TCM7"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  // The value is parsed 'raw' like this, because it's part of the URL above anyway.
-  // Therefore, the value from _config.yml need not to be used.
-  gtag('config', 'G-96M5M9TCM7');
-</script>
 
+  gtag('config', '{{ site.google_analytics }}');
+</script>
 
