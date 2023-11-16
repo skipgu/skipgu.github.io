@@ -9,3 +9,24 @@ instagram_username: "skip.gu"
 linkedin_username: "company/skip-student-association"
 discord_link: "https://tinyurl.com/skip-discord"
 google_analytics: G-96M5M9TCM7 
+
+paginate: 10
+paginate_path: /page:num/
+
+plugins:
+  - jekyll-paginate
+
+collections:
+  communityposts:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: "_communityposts"
+      type: communityposts
+    values:
+      layout: posts
+      read_time: true
+    
+
