@@ -1,6 +1,7 @@
 ---
 title: Membership
 layout: post
+permalink: /membership/
 ---
 
 ## SKIP Student Association Structure Overview

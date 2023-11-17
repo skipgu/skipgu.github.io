@@ -1,6 +1,7 @@
 ---
 title: Join SKIP
 layout: post
+permalink: /join-skip/
 ---
 
 ## Join Us: Become a SKIP Member!
