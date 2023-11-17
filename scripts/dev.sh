@@ -3,4 +3,4 @@
 # Run the jekyll server locally in development mode;
 # that is, changes are reflected immediately in the browser.
 
-bundle exec jekyll serve --config "_config.yml,_config_local.yml"
+bundle exec jekyll serve --config "_config.yml,_config_local.yml" --future

@@ -15,7 +15,7 @@ $ bundle install
 ### Run (local level)
 
 ```sh
-$ bundle exec jekyll serve --config "_config.yml,_config_local.yml"
+$ bundle exec jekyll serve --config "_config.yml,_config_local.yml" --future
 ```
 
 Or, more simply

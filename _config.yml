@@ -15,18 +15,3 @@ paginate_path: /page:num/
 
 plugins:
   - jekyll-paginate
-
-collections:
-  communityposts:
-    output: true
-    permalink: /posts/:path/
-
-defaults:
-  - scope:
-      path: "_communityposts"
-      type: communityposts
-    values:
-      layout: posts
-      read_time: true
-    
-

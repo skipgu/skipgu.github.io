@@ -3,4 +3,7 @@ skin: night # default, night, plum, sea, soft, steel
 navigation_pages:
   - join_skip.md
   - membership.md
-  - communityposts.md
+  - posts.md
+
+t:
+  posts: Posts and Events
