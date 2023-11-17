@@ -1,7 +1,6 @@
 ---
 title: Posts
-layout: collection
+layout: posts
 permalink: /posts/
-collection: communityposts
 entries_layout: list #list (default), grid
 ---

@@ -6,7 +6,6 @@ sub_title: A night full of laughter, excitement, and endless entertainment!
 author:
   name: SKIP
 comments: false
-collection: communityposts
 ---
 
 <!-- Export from Orbi -->
