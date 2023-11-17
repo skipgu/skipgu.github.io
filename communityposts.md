@@ -1,7 +1,7 @@
 ---
-title: Community Posts
+title: Posts
 layout: collection
-permalink: /communityposts/
+permalink: /posts/
 collection: communityposts
 entries_layout: list #list (default), grid
 ---

@@ -19,7 +19,7 @@ plugins:
 collections:
   communityposts:
     output: true
-    permalink: /:collection/:path/
+    permalink: /posts/:path/
 
 defaults:
   - scope:
