@@ -41,7 +41,7 @@ cardgames, an interactive experience, interactive stories, and so forth.
    [**Orbi**](https://link.orbiapp.io/x1qy) (so we can track the number of
    participants). You may scan the following **QR code** for convenience.
 
-<ol><img src="../assets/posts/orbi-game-jam-qr-code.png" width=200px /></ol>
+<ol><img src="/assets/posts/orbi-game-jam-qr-code.png" width=200px /></ol>
 
 **Everyone** is welcome to the game jam! &#10084;&#65039;
 
