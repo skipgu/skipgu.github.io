@@ -42,12 +42,14 @@ information about the product and the company.
 <details>
 <summary>Introductory Presentation</summary>
 
-To bring more information on the Hackathon and connect with **you**, the
-sponsor held an **introductory presentation** (and it went amazing):
+To bring more information on the Hackathon and connect with you, the
+sponsor held an <b>introductory presentation</b> (and it went amazing):
 
-- &#128197; Friday, 12th of April 
-- &#128348; **10:00-11:00**
-- &#128205; Alfons, Patricia
+<ul>
+  <li>&#128197; Friday, 12th of April</li>
+  <li>&#128348; **10:00-11:00**</li>
+  <li>&#128205; Alfons, Patricia</li>
+</ul>
 
 </details>
 
@@ -55,7 +57,7 @@ In case of any **questions**, please contact us at *<skip@gota.gu.se>*, on
 [Instagram](<https://www.instagram.com/skip.gu/>), or
 [Discord](<https://tinyurl.com/skip-discord>).
 
-See you there!
+See you there!<br>
 *SKIP – Student Association*
 
 Latest update: 12/04/2024
