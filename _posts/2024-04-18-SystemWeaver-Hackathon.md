@@ -19,9 +19,16 @@ You will have the opportunity to learn how the industry is **engaging with
 AI**, explore integration strategies and  innovative ways to harness AI for
 boosting productivity and fostering innovation!
 
-Find the information about the event in the attached poster. Scan the **QR
-Code** to register for the event. Alternatively, use this link:
+See the attached poster. Scan the **QR Code** to register for the event.
+Alternatively, use this link:
 > [https://forms.gle/skip-hackathon-systemweaver](https://forms.gle/UFv6F32wFmUS5aGe6)
+
+Be mindful that **the registration period closes the 16th of April, 20:00**. The places
+are limited and the chosen participants will be notified by email in a timely
+manner (17th of April).
+
+&#128197; **When?**<br>
+**18th of April, 15:00 - 19th of April, 18:00**
 
 ![Poster](/assets/posts/hackathon-poster.png)
 
@@ -47,7 +54,7 @@ sponsor held an <b>introductory presentation</b> (and it went amazing):
 
 <ul>
   <li>&#128197; Friday, 12th of April</li>
-  <li>&#128348; **10:00-11:00**</li>
+  <li>&#128348; 10:00-11:00</li>
   <li>&#128205; Alfons, Patricia</li>
 </ul>
 
