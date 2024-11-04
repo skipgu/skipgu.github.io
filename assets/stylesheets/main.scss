@@ -1,0 +1,29 @@
+---
+# Override basically-basic theme styling
+---
+
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+@import "basically-basic";
+
+.sidebar-toggle-wrapper {
+  left: 0;
+  right: auto;
+  padding-left: 1rem;
+  transition: left 0.8s ease;
+  background-color: transparent;
+
+  .navicon-button {
+    
+    &.open {
+      position: fixed;
+      left: $sidebar-width;
+      padding-left: 1.5rem;
+      transition: all 0.8s ease;
+      top: 1.8125rem;
+      
+      @include breakpoint($large) {
+        left: 1.5 * $sidebar-width;
+      }
+    }
+  }
+}
