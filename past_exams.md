@@ -5,7 +5,7 @@ permalink: /past-exams/
 actions:
   - label: "View Repository"
     icon: github
-    url: "https://skipgu.org/past-exams/"
+    url: "https://skipgu.github.io/past-exams/"
 ---
 
 <!-- This is just a fallback page, the subpage ./past-exams/ is a stand-alone
