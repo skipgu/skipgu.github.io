@@ -8,3 +8,4 @@ end
 
 gem "webrick"
 gem "rexml"
+gem 'csv'
