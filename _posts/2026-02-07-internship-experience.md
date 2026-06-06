@@ -8,7 +8,7 @@ author:
 comments: false
 ---
 
-![Banner](/assets/posts/internship-experience-2026/banner.webp)
+![Banner](/assets/posts/internship-experience-2026/banner.png)
 
 On the 7th of February, SKIP hosted a lecture from GU alumni, former Amazon intern and full-time Amazon employee Nicole Leon-Quinstedt event.
 
@@ -20,6 +20,6 @@ The event was filled with informative moments where attendees could learn about 
 
 Attendees could also attend a Q&A session in order to figure out more about AWS or her honest experience at Amazon!
 
-![Questions and Answers picture](/assets/posts/questions-and-answers.JPG)
+![Questions and Answers picture](/assets/posts/internship-experience-2026/questions-and-answers.JPG)
 
 We hope that you gained valuable insight from the event and that you'll succeed in applying to Big Tech!
