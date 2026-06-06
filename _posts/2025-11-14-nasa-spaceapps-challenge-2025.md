@@ -9,15 +9,15 @@ comments: false
 
 ![Banner](/assets/posts/nasa-hackathon-2025/banner.png)
 
-During the weekend on 4-5th October 2025, NASA (USA's National Aeronautics and Space Administration) organized an annually recurring global hackathon called NASA International Space Apps Challenge. As a part of this hackathon, numerous organizations and partners organize in cooperation and training from NASA, local events all around the world - one of them being in Gothenburg - [NASA International Space Apps Challenge](https://www.spaceappschallenge.org/2025/local-events/gothenburg/) at [YESBOX](https://www.yesboxgoteborg.se/). The topic for this year's hackathon was ***"Learn, Launch, Lead!"*** where NASA provided open data in many different formats to allow for unlimited possibilities.
+During the weekend on 4-5th October 2025, NASA (USA's National Aeronautics and Space Administration) organized an annually recurring global hackathon called the NASA International Space Apps Challenge. As a part of this hackathon, numerous organizations and partners organize in cooperation and training from NASA, local events all around the world - one of them being in Gothenburg - [NASA International Space Apps Challenge](https://www.spaceappschallenge.org/2025/local-events/gothenburg/) at [YESBOX](https://www.yesboxgoteborg.se/). The topic for this year's hackathon was ***"Learn, Launch, Lead!"*** where NASA provided open data in many different formats to allow for unlimited possibilities.
 
 ![SEM students picture](/assets/posts/nasa-hackathon-2025/sem-photo.JPG)
 
-We are happy that many of our Software Engineering and Management bachelors students from all years and also SKIP members have attended and participated in this exciting hackathon (we believe that around half of all participants were from SEM). Participants organized themselves into teams and after the innitial ceremony strived to create innovative projects that tackled one of the many intriguing [challenges](https://www.spaceappschallenge.org/2025/challenges/)! 
+We are happy that many of our Software Engineering and Management bachelors students from all years and also SKIP members have attended and participated in this exciting hackathon (we believe that around half of all participants were from SEM). Participants organized themselves into teams and after the initial ceremony strived to create innovative projects that tackled one of the many intriguing [challenges](https://www.spaceappschallenge.org/2025/challenges/)! 
 
 ![SEM students working 1](/assets/posts/nasa-hackathon-2025/students-working.jpeg)
 
-NASA and their partners worldwide provided numerous data resources and tools for the participants to use. The first day has concluded with a visit to the Universeum's Wisdome and later an evening mingle.
+NASA and their partners worldwide provided numerous data resources and tools for the participants to use. The first day had concluded with a visit to the Universeum's Wisdome and later an evening mingle.
 
 ![SEM students working 2](/assets/posts/nasa-hackathon-2025/students-working-2.jpeg)
 
