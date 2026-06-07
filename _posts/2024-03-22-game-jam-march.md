@@ -9,7 +9,7 @@ comments: false
 ---
 
 <!-- Export from Orbi -->
-![Game Jam Poster](/assets/posts/game-jam-poster.png)
+![Game Jam Poster](/assets/posts/game-jam-2024/game-jam-poster.png)
 
 ### SKIP is presenting to you an exciting opportunity at Lindholmen &#128640;
 
@@ -41,7 +41,7 @@ cardgames, an interactive experience, interactive stories, and so forth.
    [**Orbi**](https://link.orbiapp.io/x1qy) (so we can track the number of
    participants). You may scan the following **QR code** for convenience.
 
-<ol><img src="/assets/posts/orbi-game-jam-qr-code.png" width=200px /></ol>
+<ol><img src="/assets/posts/game-jam-2024/orbi-game-jam-qr-code.png" width=200px /></ol>
 
 **Everyone** is welcome to the game jam! &#10084;&#65039;
 
