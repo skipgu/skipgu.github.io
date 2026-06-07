@@ -8,7 +8,7 @@ author:
 comments: true
 ---
 
-![Banner](/assets/posts/hackathon-banner.png)
+![Banner](/assets/posts/system-weaver-2024/hackathon-banner.png)
 
 ## Hackathon for AI in Software Development &#129302;
 
@@ -30,7 +30,7 @@ manner (17th of April).
 &#128197; **When?**<br>
 **18th of April, 15:00 - 19th of April, 18:00**
 
-![Poster](/assets/posts/hackathon-poster.png)
+![Poster](/assets/posts/system-weaver-2024/hackathon-poster.png)
 
 ### About the product &#128187;
 

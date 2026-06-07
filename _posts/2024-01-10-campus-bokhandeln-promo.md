@@ -8,7 +8,7 @@ author:
 comments: false
 ---
 
-![Voucher Code](/assets/posts/cbh-promo.png)
+![Voucher Code](/assets/posts/cbh-promo-2024.png)
 
 [Campusbokhandeln.se](https://campusbokhandeln.se/) has prepared a **5%
 discount** for all students when purchasing literature for the upcoming

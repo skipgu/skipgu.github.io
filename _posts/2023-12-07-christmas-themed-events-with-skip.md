@@ -8,7 +8,7 @@ author:
 comments: false
 ---
 
-![Christmas events](/assets/posts/guwit-event-poster.png)
+![Christmas events](/assets/posts/christmass-themed-events-2023/guwit-event-poster.png)
 
 Before the Christmas break, SKIP is hosting **two exciting** events for
 students!
@@ -22,7 +22,7 @@ and learn about professional life at Reddit!
 
 **Dec 7th 14:00-16:00 in Campus Lindholmen, Patricia, Alfons.**
 
-![Guest Lecture Reddit](/assets/posts/reddit-guest-lecture.png)
+![Guest Lecture Reddit](/assets/posts/christmass-themed-events-2023/reddit-guest-lecture.png)
 
 Read about the event and get a ticket at [`Orbi`](https://link.orbiapp.io/eDyU).
 
@@ -34,7 +34,7 @@ Join GUWIT and SKIP for a Gingerbread House Building Competition on **Dec 8th at
 Bring your creativity and holiday spirit to create festive masterpieces. The
 winning team gets a fantastic prize!
 
-![Gingerbread Building Contest](/assets/posts/guwit-event-orbi.png)
+![Gingerbread Building Contest](/assets/posts/christmass-themed-events-2023/guwit-event-orbi.png)
 
 Read about the event and get a ticket at [`Orbi`](https://link.orbiapp.io/kVFJ). You
 can also read about GUWIT's profile on

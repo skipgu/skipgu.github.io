@@ -6,7 +6,7 @@ author:
   name: Sree Harshini Ravi & Adam Sindler (SKIP)
 ---
 
-![Heading Banner](/assets/posts/build-something-lovable-poster.png)
+![Heading Banner](/assets/posts/build-something-lovable-hackathon/banner.png)
 
 Last weekend, from the 15th to the 17th May 2026, SKIP hosted the **Build Something Lovable** hackathon in partnership with **Lovable** and fueled by **Red Bull**! It was an exciting weekend centered around innovation, creativity and making use of  artificial intelligence.
 
