@@ -1,6 +1,6 @@
 ---
-title: Posts
+title: Blogs
 layout: posts
-permalink: /posts/
+permalink: /blogs/
 entries_layout: list #list (default), grid
 ---

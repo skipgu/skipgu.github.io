@@ -5,7 +5,7 @@ navigation_pages:
   - membership.md
   - past_exams.md
   - skip_iot_kit.md
-  - posts.md
+  - blogs.md
 
 t:
   posts: Posts and Events
