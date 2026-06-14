@@ -1,7 +1,7 @@
 skin: night # default, night, plum, sea, soft, steel
 
 navigation_pages:
-  - join_skip.md
+  - joining_skip.md
   - membership.md
   - past_exams.md
   - skip_iot_kit.md
