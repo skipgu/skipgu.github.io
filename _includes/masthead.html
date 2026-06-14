@@ -1,0 +1,31 @@
+{% assign site_logo = site.logo | relative_url %}
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      {% if page.url == '/' %}
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
+            <span>{{ site.title | escape }}</span>
+          </a>
+        </h1>
+      {% else %}
+        <p class="site-title">
+          <a href="{{ '/' | relative_url }}">
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
+            <span>{{ site.title | escape }}</span>
+          </a>
+        </p>
+      {% endif %}
+    </div>
+
+    <nav class="nav-bar">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/joining-skip' | relative_url }}">Joining SKIP</a>
+        <a href="{{ '/past-exams' | relative_url }}">Past Exams</a>
+        <a href="{{ '/skip-iot-kit' | relative_url }}">IoT Kits</a>
+        <a href="{{ '/blogs' | relative_url }}">Blogs</a>
+    </nav>
+  </div>
+</header>
