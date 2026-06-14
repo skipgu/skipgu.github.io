@@ -1,7 +1,20 @@
 {% assign site_logo = site.logo | relative_url %}
 
 <header id="masthead">
-  <div class="inner">
+  <div class="inner"
+    style="display: flex; align-items: center; justify-content: space-between;"
+  >
+
+    <nav class="nav-bar" 
+        style="display: flex; gap: 1.5rem;"
+    >
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/joining-skip' | relative_url }}">Joining SKIP</a>
+        <a href="{{ '/past-exams' | relative_url }}">Past Exams</a>
+        <a href="{{ '/skip-iot-kit' | relative_url }}">IoT Kits</a>
+        <a href="{{ '/blogs' | relative_url }}">Blogs</a>
+    </nav>
+
     <div class="title-area">
       {% if page.url == '/' %}
         <h1 class="site-title">
@@ -19,13 +32,5 @@
         </p>
       {% endif %}
     </div>
-
-    <nav class="nav-bar">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/joining-skip' | relative_url }}">Joining SKIP</a>
-        <a href="{{ '/past-exams' | relative_url }}">Past Exams</a>
-        <a href="{{ '/skip-iot-kit' | relative_url }}">IoT Kits</a>
-        <a href="{{ '/blogs' | relative_url }}">Blogs</a>
-    </nav>
   </div>
 </header>
