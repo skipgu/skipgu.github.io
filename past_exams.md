@@ -2,6 +2,7 @@
 title: Past Exams
 layout: post
 permalink: /past-exams/
+redirect_to: "https://github.com/skipgu/past-exams" 
 actions:
   - label: "View Repository"
     icon: github

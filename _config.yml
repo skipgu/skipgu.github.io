@@ -10,8 +10,13 @@ linkedin_username: "skip-student-association"
 discord_link: "https://tinyurl.com/skip-discord"
 google_analytics: G-59HKXYXZ3V
 
+
 paginate: 10
 paginate_path: /page:num/
 
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
+
+whitelist: 
+  - jekyll-redirect-from
