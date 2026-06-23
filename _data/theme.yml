@@ -3,7 +3,6 @@ skin: night # default, night, plum, sea, soft, steel
 navigation_pages:
   - joining_skip.md
   - membership.md
-  - past_exams.md
   - skip_iot_kit.md
   - blogs.md
 
