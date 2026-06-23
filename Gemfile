@@ -9,4 +9,3 @@ end
 gem "webrick"
 gem "rexml"
 gem 'csv'
-gem 'jekyll-redirect-from'

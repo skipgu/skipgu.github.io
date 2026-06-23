@@ -16,7 +16,4 @@ paginate_path: /page:num/
 
 plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
-
-whitelist: 
-  - jekyll-redirect-from
+  
