@@ -1,7 +1,7 @@
 ---
-title: IoT Kits
+title: Oops
 layout: post
-permalink: /iot-fallback/
+permalink: /fallback/
 ---
 
 <div class="under-construction-text"
