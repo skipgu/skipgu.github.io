@@ -2,14 +2,11 @@
 title: IoT Kits
 layout: post
 permalink: /skip-iot-kit/
-actions:
-  - label: "View Repository"
-    icon: github
-    url: "https://github.com/skipgu/skip-iot-kit/"
 ---
 
-<!-- This is just a fallback page, the subpage ./skip-iot-kit/ is a stand-alone
-  subpage. Hence, this page will only be displayed in case the subpage is
-  temporarily disabled. -->
-
-All information can be obtained from the listed repository.
+<div class="under-construction-text"
+      style="display: flex; flex-direction: column; align-items: center; width: 100%; justify-content: center; margin: 0 auto;"
+>
+    <img src="/assets/icons/under_construction_icon.png" width="200" height="200">
+    <p style="color: #888; font-style: italic; font-size: 1.5rem; margin-top: 1rem;">This page is under construction </p>
+</div>
