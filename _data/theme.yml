@@ -1,8 +1,8 @@
 skin: night # default, night, plum, sea, soft, steel
 
 navigation_pages:
-  - title: Joining SKIP
-    url: /joining-skip
+  - title: Join SKIP
+    url: /join-skip
   - title: Past exams
     url: https://github.com/skipgu/past-exams
   - title: IoT Kits
