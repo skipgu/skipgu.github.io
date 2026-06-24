@@ -22,11 +22,20 @@
     <nav class="nav-bar" 
         style="gap: 1.5rem;"
     >
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/joining-skip' | relative_url }}">Joining SKIP</a>
-        <a href="https://github.com/skipgu/past-exams">Past Exams</a>
-        <a href="{{ '/fallback' | relative_url }}">IoT Kits</a>
-        <a href="{{ '/blogs' | relative_url }}">Blogs</a>
+      <!--Home link-->
+      <a href="{{ '/' | relative_url }}" itemprop="url">
+        <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
+      </a>
+
+      {% assign default_paths = site.pages | map: "path" %}
+      {% assign page_paths = site.data.theme.navigation_pages | default: default_paths %}
+      
+      <!--Links from navigation_pages in theme.yml-->
+      {% for item in site.data.theme.navigation_pages %}
+        <a href="{{ item.url | relative_url }}" itemprop="url">
+        <span itemprop="name">{{ item.title }}</span>
+        </a>
+      {% endfor %}
     </nav>
 
     <div class="title-area">
