@@ -1,10 +1,12 @@
 skin: night # default, night, plum, sea, soft, steel
 
 navigation_pages:
-  - joining_skip.md
-  - membership.md
-  - skip_iot_kit.md
-  - blogs.md
+  - title: Joining SKIP
+    url: /joining-skip
+  - title: IoT Kits
+    url: /fallback
+  - title: Blogs
+    url: /blogs
 
 t:
   posts: Posts and Events
