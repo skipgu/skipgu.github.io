@@ -9,7 +9,7 @@ permalink: /join-skip/
 At SKIP, we welcome students who are enthusiastic about enhancing the academic and social experience of their peers. The SKIP Student Association operates in collaboration with Göta Studentkår and other student associations and is designed to enhance the student experience by organizing events.
 <br>
 
-To effectively achieve its mission, SKIP comprises 3 distinct categories of memberships: "**Board Members**", "**Regular Members**," and "**Volunteer/Friend of SKIP**." For the sake of this illustraction, we will consider Regular Memebrs and Volunteers as simply Members as they have almost the same privileges. <br>
+To effectively achieve its mission, SKIP comprises 3 distinct categories of memberships: "**Board Members**", "**Regular Members**," and "**Volunteer/Friend of SKIP**." For the sake of this illustration, we will consider Regular Members and Volunteers as simply Members as they have almost the same privileges. <br>
 
 ![Skip structure](/assets/imgs/skip-structure.png)
 
@@ -32,7 +32,7 @@ If you're passionate about event planning, leadership, and making a significant 
 
 
 2. **Regular Members:**
-As a regular member, you can actively contribute to the success of SKIP. Your participation in events and feedback are highly valued. Additionally, you'll enjoy perks like priority access to events and discounts. If you're ready to dive in and be an essential part of the SKIP experience, apply today! New Regular Members have to discussed on any board meeting and the membership lasts until the end of board's mandate.<br> 
+As a regular member, you can actively contribute to the success of SKIP. Your participation in events and feedback are highly valued. Additionally, you'll enjoy perks like priority access to events and discounts. If you're ready to dive in and be an essential part of the SKIP experience, apply today! New Regular Members have to be admitted on any board meeting and the membership lasts until the end of board's mandate.<br> 
 
 **Requirement:**<br>
 - Be a student at the University of Gothenburg (preferably at the Department of Computer Science and Engineering - Bachelors programme in Software Engineering and Management)
@@ -43,7 +43,7 @@ As a regular member, you can actively contribute to the success of SKIP. Your pa
 - **Contribute:** The insights and contributions of regular members are integral to ensuring that events cater to the needs and preferences of the student body. <br> [<img src="/assets/imgs/member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-member)<br><br>
 
 3. **Volunteer/Friend of SKIP:**
-As a Friend of SKIP, you can actively contribute to the success of SKIP even if you are not a Student at the University of Gothenburg or after your graduation from the University of Gothenburg. Your participation in events and feedback are highly valued. If you're ready to dive in and be an essential part of the SKIP experience, email us today at [_skip@gota.gu.se_](mailto:skip@gota.gu.se)! New Friends of SKIP have to discussed on any board meeting and the membership can last until the end of board's mandate or only for specific events.<br> 
+As a Friend of SKIP, you can actively contribute to the success of SKIP even if you are not a Student at the University of Gothenburg or after your graduation from the University of Gothenburg. Your participation in events and feedback are highly valued. If you're ready to dive in and be an essential part of the SKIP experience, email us today at [_skip@gota.gu.se_](mailto:skip@gota.gu.se)! New Friends of SKIP have to be admitted on any board meeting and the membership can last until the end of board's mandate or only for specific events.<br> 
 
 **Requirement:**<br>
 - Preferably be a student and have a connection to SKIP (e.g. graduated from SEM at GU, former SKIP board members...)
