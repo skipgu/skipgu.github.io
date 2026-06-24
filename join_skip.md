@@ -16,36 +16,36 @@ To effectively achieve its mission, SKIP comprises 3 distinct categories of memb
 Whether you're interested in taking a leadership role as a board member or providing valuable support as a regular member or a Friend of SKIP, there's a place for you in our community. <br>
 
 > **NOTE:** 
-> It's important to note that <u>all board members, must also be <a href="https://medlem.gotastudentkar.se/sv/">regular members of Göta Studentkår</a></u>.
+> It's important to note that <u>all board members must also be <a href="https://medlem.gotastudentkar.se/sv/">regular members of Göta Studentkår</a></u>.
 
-1. **Board Members:**
+## **Board Members**
 If you're passionate about event planning, leadership, and making a significant impact, consider joining our board. Board members have a crucial role in shaping the direction of SKIP and a mandate for one year (usually from the beginning of May of one year until the end of April of the next one). Please note that board member applications are individually reviewed and usually only once a year (March-May). If selected, you will be scheduled for an onboarding process to help you transition into your leadership role effectively. <br>
 
-**Requirements:**<br>
+### **Requirements:**
 - Be a student at the University of Gothenburg (preferably at the Department of Computer Science and Engineering - Bachelors programme in Software Engineering and Management)
 - Be a regular member at Göta Studentkår
 
-**As board members, you will:**<br>
+### **As board members, you will:**
 - **Organize events:** Board members play a central role in the SKIP association, forming the core team responsible for planning, organizing, and executing events.
 - **Manage events:** They have the direct responsibility for conceptualizing, coordinating, and overseeing various events that contribute to the enrichment of the student experience.
 - **Lead:** Board members are entrusted with leadership roles that enable them to make strategic decisions and drive the direction of SKIP. <br> [<img src="/assets/imgs/board-member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-board-member26)<br><br>
 
 
-2. **Regular Members:**
+## **Regular Members**
 As a regular member, you can actively contribute to the success of SKIP. Your participation in events and feedback are highly valued. Additionally, you'll enjoy perks like priority access to events and discounts. If you're ready to dive in and be an essential part of the SKIP experience, apply today! New Regular Members have to be admitted on any board meeting and the membership lasts until the end of board's mandate.<br> 
 
-**Requirement:**<br>
+### **Requirement:**
 - Be a student at the University of Gothenburg (preferably at the Department of Computer Science and Engineering - Bachelors programme in Software Engineering and Management)
 
-**As regular members, you will:**<br>
+### **As regular members, you will:**
 - **Support & Give feedback:** Regular members form an essential part of SKIP by actively participating in events and providing valuable feedback. They assist in the successful execution of activities initiated by board members.
 - **Get member benefits:** Regular members enjoy additional perks such as priority access to events, discounts, and the opportunity to engage in the SKIP community.
 - **Contribute:** The insights and contributions of regular members are integral to ensuring that events cater to the needs and preferences of the student body. <br> [<img src="/assets/imgs/member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-member)<br><br>
 
-3. **Volunteer/Friend of SKIP:**
+## **Volunteer/Friend of SKIP**
 As a Friend of SKIP, you can actively contribute to the success of SKIP even if you are not a Student at the University of Gothenburg or after your graduation from the University of Gothenburg. Your participation in events and feedback are highly valued. If you're ready to dive in and be an essential part of the SKIP experience, email us today at [_skip@gota.gu.se_](mailto:skip@gota.gu.se)! New Friends of SKIP have to be admitted on any board meeting and the membership can last until the end of board's mandate or only for specific events.<br> 
 
-**Requirement:**<br>
+### **Requirement:**
 - Preferably be a student and have a connection to SKIP (e.g. graduated from SEM at GU, former SKIP board members...)
 
 ## Collaboration
