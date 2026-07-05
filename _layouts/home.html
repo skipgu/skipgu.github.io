@@ -1,0 +1,31 @@
+---
+layout: default 
+---
+<div class="big-home-logo">
+    <img src="{{ page.image }}">
+</div>
+
+<div class="index">
+
+  <h1>{{ page.alt_title }}</h1>
+
+  <p>{{ page.sub_title }}</p>
+
+  {{ content }}
+
+  <div class="home-posts">
+  
+    <div class="posts-inner">
+      {% assign recent_posts = site.posts | slice: 0, 3 %}
+
+      {% for post in recent_posts %}
+        {% include entry.html %}
+      {% endfor %}
+
+    </div>
+
+    <a href="/blogs/" class="blog-button">More blogs</a>
+
+  </div>
+    
+</div>
