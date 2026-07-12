@@ -20,6 +20,26 @@
               position: sticky;
               top: 0;
               z-index: 1000;
+              background-color: #12151f; /*darker than bg version 1*/
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+          }
+
+          #masthead .site-logo {
+            height: 32px;   
+            width: auto;
+          }
+
+          #masthead .inner {
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+            font-size: 1rem;
+            height: 3.5rem;
+            left: 0;
+          }
+
+          .nav-bar {
+            gap: 1.5rem;
           }
 
           .canvas {
@@ -33,13 +53,8 @@
 
     </style>
     
-  <div class="inner"
-    style="display: flex; align-items: center; justify-content: space-between;"
-  >
-
-    <nav class="nav-bar" 
-        style="gap: 1.5rem;"
-    >
+  <div class="inner">
+    <nav class="nav-bar">
       <!--Home link-->
       <a href="{{ '/' | relative_url }}" itemprop="url">
         <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
