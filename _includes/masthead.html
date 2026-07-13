@@ -63,10 +63,24 @@
             	text-decoration: none;
           	}
           
-          	/*Add bottom border/underline to hovered link*/
-          	.nav-bar a:hover {
-          	  	border-bottom: 0.2rem solid rgb(224, 91, 91);
-          	}
+          	/*Add underline animation to the hovered link*/
+            .nav-bar a {
+              position: relative;
+            }
+
+            .nav-bar a .underline-animation {
+                position: absolute;
+                left: 0;
+                bottom: -0.3rem;
+                width: 0;
+                height: 0.2rem;
+                background-color: rgb(224, 91, 91);
+                transition: width 0.3s;
+            }
+
+            .nav-bar a:hover .underline-animation {
+                width: 100%;
+            }
         }
     </style>
     
@@ -75,6 +89,7 @@
       <!--Home link-->
       <a href="{{ '/' | relative_url }}" itemprop="url">
         <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
+        <span class="underline-animation"></span>
       </a>
 
       {% assign default_paths = site.pages | map: "path" %}
@@ -84,6 +99,7 @@
       {% for item in site.data.theme.navigation_pages %}
         <a href="{{ item.url | relative_url }}" itemprop="url">
         <span itemprop="name">{{ item.title }}</span>
+        <span class="underline-animation"></span>
         </a>
       {% endfor %}
     </nav>
