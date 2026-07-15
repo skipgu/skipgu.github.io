@@ -5,6 +5,9 @@
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 @import "basically-basic";
 
+$skip-red: rgb(224, 91, 91);
+
+
 .sidebar-toggle-wrapper {
   left: 0;
   right: auto;
@@ -37,7 +40,7 @@
 .sidebar li a:hover {
   margin-left: 0.5rem;
   font-weight: bold;
-  color: rgb(224, 91, 91);
+  color: $skip-red;
 }
 
 /*Make the main navigation bar sticky*/
@@ -109,7 +112,7 @@
         bottom: -0.3rem;
         width: 0;
         height: 0.2rem;
-        background-color: rgb(224, 91, 91);
+        background-color: $skip-red;
         transition: width 0.3s;
     }
 
@@ -195,7 +198,7 @@
 
     &:hover,
     &:focus {
-      color: $accent-color;
+      color: $skip-red;
       text-decoration: none;
     }
   }
@@ -207,4 +210,31 @@
   li:empty {
     display: none;
   }
+}
+
+.taxonomy-index a:hover, .taxonomy-section a:hover {
+  color: $skip-red !important; /* Usually !important isn't a good practice, but here we use it to override a hover
+which is set by the theme */
+}
+
+
+/* In order to make back-to-top sticky, we set the overflow on initial content visible*/
+.initial-content {
+  overflow: visible;
+}
+
+.back-to-top {
+  transform: translateX(0);
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+
+  &:hover {
+    color: $skip-red
+  }
+}
+
+.is--pushed .back-to-top {
+  transform: translateX(320px);
 }
