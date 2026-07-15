@@ -28,9 +28,94 @@
   }
 }
 
+/*show nav bar and hide hamburger for laptops, desktops, etc*/
+.sidebar-toggle-wrapper { display: none; }
+#sidebar { display: none; }
+.nav-bar { display: flex; }
+
+/*TO change the colour of the text in the hamburger menu when u click on it*/
+.sidebar li a:hover {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  color: rgb(224, 91, 91);
+}
+
+/*Make the main navigation bar sticky*/
 #masthead {
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #12151f; /*darker than bg version 1*/
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.canvas {
+  overflow: visible; /*to make sure the sticky works*/
+}
+
+/*hide nav bar and show hamburger on smaller screens*/
+  @media (max-width: $medium) {
+    .nav-bar { display: none; }
+    .sidebar-toggle-wrapper { 
+      display: block; 
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin: 1.8125rem 0;
+      padding-right: 1rem;
+      z-index: 1000;
+    }
+
+    /*remove padding and margin in menu and logo to make the navigation bar appear thinner*/
+    .site-title {
+      padding: 0;
+      margin-right: 1rem;
+    }
+
+    .sidebar-toggle-wrapper {
+      margin-top: 0;
+    }
+
+    /*set sidebar overflow visible for sticky to work*/
+    #sidebar { display: block; }
+    #sidebar > .inner { height: 100vh; overflow: visible; }
+    #sidebar > .inner > #primary-nav { position: sticky; top: 0;} 
+}
+
+/*Desktop specific styling */
+@media (min-width: $medium) {
+    #masthead .inner {
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between;
+      font-size: 1rem;
+      height: 3.5rem; /*To make the bar thinner*/
+      left: 0;
+    }
+
+    .nav-bar a {
+      position: relative;
+      padding: 0.5rem 0.7rem;
+      color: #f3f3f3;
+      text-decoration: none;
+    }
+  
+    /*Add underline animation to the hovered link*/
+    .nav-bar a .underline-animation {
+        position: absolute;
+        left: 0;
+        bottom: -0.3rem;
+        width: 0;
+        height: 0.2rem;
+        background-color: rgb(224, 91, 91);
+        transition: width 0.3s;
+    }
+
+    .nav-bar a:hover .underline-animation {
+        width: 100%;
+    }
 }
 
 .site-title {
