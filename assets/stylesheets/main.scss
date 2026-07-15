@@ -214,7 +214,7 @@ $gray: #555;
   }
 }
 
-.taxonomy-index a:hover, .taxonomy-section a:hover {
+.taxonomy-index a:hover, .taxonomy-section a:hover, .more-link:hover, .entry-header a:hover {
   color: $skip-red !important; /* Usually !important isn't a good practice, but here we use it to override a hover
 which is set by the theme */
 }
