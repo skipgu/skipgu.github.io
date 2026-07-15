@@ -159,39 +159,15 @@
 .site-footer {
   .inner {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+    text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
     max-width: $main-max-width;
     margin: 0 auto;
     padding: 1.5rem 0.5rem;
-
-    @include breakpoint($small) {
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-
-    @include breakpoint($medium) {
-      padding-right: 2rem;
-      padding-left: 2rem;
-    }
-
-    @include breakpoint($large) {
-      padding-right: 3rem;
-      padding-left: 3rem;
-    }
-
-    @include breakpoint($xlarge) {
-      padding-right: 4rem;
-      padding-left: 4rem;
-    }
-
-    @media (max-width: $medium) {
-      flex-direction: column;
-      text-align: center;
-    }
   }
 
   .copyright {
