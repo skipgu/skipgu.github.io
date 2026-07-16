@@ -3,6 +3,10 @@ title: Internship Experience
 alt_title: Internship experience at AWS from former Amazon intern and now a full-time AWS employee
 sub_title: Find out what it's like working at Big Tech like Amazon Web Services (AWS)!
 
+tags:
+  - Guest Lecture
+  - Workshop
+
 author:
     name: SKIP
 comments: false

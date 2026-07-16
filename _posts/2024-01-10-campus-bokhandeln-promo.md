@@ -3,6 +3,9 @@ title: A student discount at Campusbokhandeln.se &#128218;&#9851;&#65039;
 alt_title: For all students during the spring semester
 sub_title: A lovely 5% discount off on all literature
 
+tags:
+  - Promo
+
 author:
   name: SKIP
 comments: false

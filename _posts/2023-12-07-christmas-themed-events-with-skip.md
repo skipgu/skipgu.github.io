@@ -3,6 +3,11 @@ title: Two new exciting events with SKIP &#128293;
 alt_title: Christmas themed events for students with FIKA!
 sub_title: Guest Lecture (Reddit) & Gingerbread Building Contest (+GUWIT)
 
+tags:
+  - Guest Lecture
+  - Workshop
+  - GUWIT
+
 author:
   name: SKIP
 comments: false

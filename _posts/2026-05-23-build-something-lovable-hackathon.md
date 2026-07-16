@@ -2,6 +2,9 @@
 title: The Build Something Lovable Hackathon
 sub_title: An AI-powered hackathon
 
+tags:
+  - Hackathon
+
 author:
   name: Sree Harshini Ravi & Adam Sindler (SKIP)
 ---

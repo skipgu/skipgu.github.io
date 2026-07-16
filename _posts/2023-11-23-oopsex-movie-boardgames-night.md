@@ -3,6 +3,11 @@ title: Movie and Board Games Night with OOPsex &#127909; &#127922;
 alt_title: An new event co-hosted by SKIP. 
 sub_title: A night full of laughter, excitement, and endless entertainment!
 
+tags:
+  - Game Night
+  - Movie Night
+  - OOPsex
+
 author:
   name: SKIP
 comments: false
