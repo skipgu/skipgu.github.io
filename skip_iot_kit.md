@@ -1,6 +1,6 @@
 ---
 title: IoT Kits
-layout: post
+layout: page
 permalink: /skip-iot-kit/
 actions:
   - label: "View Repository"

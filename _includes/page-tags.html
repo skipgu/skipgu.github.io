@@ -1,0 +1,8 @@
+{% if page.tags.size > 0 %}
+    <span class="entry-tags">
+        <span class="icon">{% include icon-tag.svg %}</span>
+        {% for tag in page.tags %}
+            <span class="entry-time" style="margin-right: 0.75rem;">{{ tag }}</span>
+        {% endfor %}
+    </span>
+{% endif %}
