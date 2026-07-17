@@ -244,6 +244,13 @@ $gray: #555;
   }
 }
 
+.no-results {
+  display: none;
+  font-weight: bold;
+  text-align: center;
+  margin: 3rem;
+}
+
 .footer-social-list {
   @include list-unstyled;
   display: flex;
