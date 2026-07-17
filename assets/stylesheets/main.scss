@@ -202,6 +202,48 @@ $gray: #555;
   }
 }
 
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: $white;
+}
+
+.filter-button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid $white;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 0.9rem;
+  color: $white;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+
+  &:hover {
+    border-color: $skip-red;
+    color: $skip-red;
+  }
+
+  &.active {
+    border-color: $skip-red;
+    color: #fff;
+    background: $skip-red;
+  }
+}
+
 .footer-social-list {
   @include list-unstyled;
   display: flex;

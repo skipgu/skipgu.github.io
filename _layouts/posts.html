@@ -4,8 +4,32 @@ layout: page
 
 {{ content }}
 
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
+
+<div class="filter-bar">
+  <div class="filter-group" data-filter-type="year">
+    <span class="filter-label">Year:</span>
+    <button class="filter-button active" data-filter="all">All</button>
+    {% for year in postsByYear %}
+      <button class="filter-button" data-filter="{{ year.name }}">{{ year.name }}</button>
+    {% endfor %}
+  </div>
+  {% if all_tags.size > 0 %}
+  <div class="filter-group" data-filter-type="tag">
+    <span class="filter-label">Tag:</span>
+    <button class="filter-button active" data-filter="all">All</button>
+    {% for tag in all_tags %}
+      <button class="filter-button" data-filter="{{ tag }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% for post in site.posts %}
     {% include entry.html %}
   {% endfor %}
 </div>
+
+<script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
