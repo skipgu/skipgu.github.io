@@ -13,9 +13,10 @@ layout: default
 
   {{ content }}
 
-  <div class="home-posts">
+  <div class="home-recent-posts">
   
-    <div class="posts-inner">
+    <h2>Recent blogs</h2>
+    <div class="entries-list posts-inner">
       {% assign recent_posts = site.posts | slice: 0, 3 %}
 
       {% for post in recent_posts %}
