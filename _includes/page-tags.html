@@ -5,4 +5,9 @@
             <span class="entry-time" style="margin-right: 0.75rem;">{{ tag }}</span>
         {% endfor %}
     </span>
-{% endif %}
+{% else %}
+    <span class="entry-tags">
+        <span class="icon">{% include icon-tag.svg %}</span>
+        <span class="entry-time" style="margin-right: 0.75rem;">Other</span>
+    </span>
+{% endif %} 
