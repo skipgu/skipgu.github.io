@@ -2,6 +2,9 @@
 title: NASA International Space Apps Challenge 2025 - Hackathon
 sub_title: SEM's participation at the 2025 NASA International Space Apps Challenge.
 
+tags:
+  - Hackathon
+
 author:
     name: Tomas Zajic
 comments: false

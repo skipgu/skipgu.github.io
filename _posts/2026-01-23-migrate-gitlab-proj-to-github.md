@@ -2,6 +2,10 @@
 title: GitLab to GitHub Migration Guide
 sub_title: Import your course projects to GitHub
 
+tags:
+  - Article
+  - Tutorial
+
 author:
   name: SKIP
 ---

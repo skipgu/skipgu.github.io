@@ -2,6 +2,9 @@
 title: Functional Programming for Software Engineers (Guest Lecture)
 sub_title: Unlock the Power of Functional Programming
 
+tags:
+  - Guest Lecture
+
 author:
     name: SKIP
 comments: false

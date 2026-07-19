@@ -3,6 +3,10 @@ title: Hackathon with SystemWeaver &#129302;
 alt_title: A 24-hour event with SystemWeaver in the heart of Göteborg
 sub_title: Explore how industry employs AI to enhance their products, network,
            learn from professionals, and win prizes!
+
+tags:
+  - Hackathon
+
 author:
   name: SKIP
 comments: true

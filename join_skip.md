@@ -1,6 +1,6 @@
 ---
 title: Join SKIP
-layout: post
+layout: page
 permalink: /join-skip/
 ---
 

@@ -2,6 +2,9 @@
 title: Easter Game Jam 2025
 sub_title: A weekend-long game jam & an exciting opportunity to meet new people & have fun with games
 
+tags:
+  - Game Jam
+
 author:
   name: SKIP
 comments: false

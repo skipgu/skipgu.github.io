@@ -3,6 +3,9 @@ title: Game Jam March 2024 co-hosted by SKIP
 alt_title: SKIP, Chalmers University and Gothenburg University present to you the March Game Jam 2024 &#128126;
 sub_title: An exciting opportunity to meet new people and have fun with games
 
+tags:
+  - Game Jam
+
 author:
   name: SKIP
 comments: false

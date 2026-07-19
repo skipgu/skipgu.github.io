@@ -1,0 +1,27 @@
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
+
+<h2>Filters</h2>
+<div class="filter-bar">
+  <div class="filter-group" data-filter-type="year">
+    <span class="filter-label">Year:</span>
+    <button class="filter-button active" data-filter="all">All</button>
+    {% for year in postsByYear %}
+      <button class="filter-button" data-filter="{{ year.name }}">{{ year.name }}</button>
+    {% endfor %}
+  </div>
+  <div class="filter-group" data-filter-type="tag">
+    <span class="filter-label">Tag:</span>
+    <button class="filter-button active" data-filter="all">All</button>
+    {% if all_tags.size > 0 %}
+      {% for tag in all_tags %}
+        <button class="filter-button" data-filter="{{ tag }}">{{ tag }}</button>
+      {% endfor %}
+    {% endif %}
+    <button class="filter-button" data-filter="Other">Other</button>
+  </div>
+</div>
+
+<h1 class="no-results">No blogs found!</h1>
+
+<script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
