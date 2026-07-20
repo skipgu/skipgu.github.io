@@ -210,16 +210,34 @@ $gray: #555;
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
   padding-bottom: 1rem;
-  gap: 1rem;
   border-bottom: 1px solid rgba(234, 234, 234, 0.5);
+}
+
+.filter-search {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid $white;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 0.9rem;
+  color: $white;
+
+  &::placeholder {
+    color: $white;
+    opacity: 0.6;
+  }
+
+  &:focus {
+    border-color: $skip-red;
+  }
 }
 
 .filter-group {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 1rem;
   gap: 0.5rem;
 }
 
