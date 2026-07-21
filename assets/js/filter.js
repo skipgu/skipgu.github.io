@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let groups = filterBar.querySelectorAll('.filter-group');
     let entries = document.querySelectorAll('.entry');
     let noResults = document.querySelector('.no-results');
+    let searchInput = document.querySelector('.filter-search');
+    let searchTerm = '';
     let selected = {};
 
     function applyFilters() {
@@ -14,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function () {
             let entryYear = entry.getAttribute('data-year');
             let entryTags = (entry.getAttribute('data-tags') || '').split(',');
             let show = true;
+            
+            let title = entry.querySelector('.entry-title').textContent.toLowerCase();
+            if (searchTerm && title.indexOf(searchTerm) === -1) {
+                show = false;
+            }
 
             groups.forEach(function (group) {
                 if (!show) return;
@@ -57,4 +64,11 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     });
+
+    if (searchInput) {
+        searchInput.addEventListener('input', function () {
+            searchTerm = this.value.toLowerCase();
+            applyFilters();
+        });
+    }
 });
