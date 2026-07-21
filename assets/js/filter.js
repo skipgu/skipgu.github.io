@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let groups = filterBar.querySelectorAll('.filter-group');
     let entries = document.querySelectorAll('.entry');
     let noResults = document.querySelector('.no-results');
-    let searchInput = filterBar.querySelector('.filter-search');
+    let searchInput = document.querySelector('.filter-search');
     let searchTerm = '';
     let selected = {};
 
