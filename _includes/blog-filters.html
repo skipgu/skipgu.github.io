@@ -1,9 +1,12 @@
 {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
 
-<h2>Filters</h2>
-<div class="filter-bar">
+<h3>Search & Filters</h3>
+<div class="filter-group">
+  <span class="filter-label">Title:</span>
   <input type="text" class="filter-search" placeholder="Search blog posts...">
+</div>
+<div class="filter-bar">
   <div class="filter-group" data-filter-type="year">
     <span class="filter-label">Year:</span>
     <button class="filter-button active" data-filter="all">All</button>
