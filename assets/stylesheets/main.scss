@@ -35,15 +35,52 @@ $gray: #555;
   }
 }
 
-#sidebar { display: none; }
-.nav-bar { display: flex; }
+.sidebar {
+  z-index: 1000;
+  visibility: hidden;
+  background-color: $dark-navy-blue;
 
-/*TO change the colour of the text in the hamburger menu when u click on it*/
-.sidebar li a:hover {
-  margin-left: 0.5rem;
-  font-weight: bold;
-  color: $skip-red;
+  // Only move the sidebar, not the rest of the content with transformX
+  transition: transform 0.4s ease, visibility 0.4s;
+  transform: translateX(-100%);
+
+  .sidebar-close {
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    right: 1rem;
+  }
+
+  .inner {
+    background-color: $dark-navy-blue;
+  }
+
+  li {
+    width: 80%;
+    transform: none; // The theme sets the transform (on the X axis) to -1rem, so we remove the transform overall
+    opacity: 1; // override the opacity set by the theme
+
+    a {
+      color: $white;
+
+      /*TO change the colour of the text in the hamburger menu when u click on it*/
+      &:hover {
+        margin-left: 0.5rem;
+        font-weight: bold;
+        color: $skip-red;
+      }
+    }
+  }
 }
+
+  // Only move the sidebar, not the rest of the content with transformX
+.sidebar.opened {
+  visibility: visible;
+  transform: translateX(0);
+  transition: transform 0.4s ease, visibility 0.4s;
+}
+
+.nav-bar { display: flex; }
 
 /*Make the main navigation bar sticky*/
 #masthead {
@@ -84,13 +121,14 @@ $gray: #555;
     }
 
     /*set sidebar overflow visible for sticky to work*/
-    #sidebar { display: block; }
     #sidebar > .inner { height: 100vh; overflow: visible; }
-    #sidebar > .inner > #primary-nav { position: sticky; top: 0;} 
 }
 
 /*Desktop specific styling */
 @media (min-width: $medium) {
+    #sidebar, #sidebar-toggle-wrapper { display: none !important; } // In case someone goes from portrait view to landscape view
+    // Otherwise the sidebar would remain on the screen
+ 
     #masthead .inner {
       display: flex; 
       align-items: center; 

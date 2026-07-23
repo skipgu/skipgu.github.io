@@ -22,7 +22,7 @@
         </button>
       {% endif %}
 
-      <button class="toggle navicon-button larr" type="button">
+      <button class="navicon-button larr" onclick="toggleSidebar()" type="button">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
           <span class="navicon"></span>
@@ -31,6 +31,9 @@
     </div>
 
     <div id="sidebar" class="sidebar">
+      <button class="navicon-button larr sidebar-close" onclick="toggleSidebar()" type="button">
+        <img src="/assets/icons/material-symbols--close-rounded.png" width="32px" height="32px"></img>
+      </button>
       <div class="inner">
         {% include navigation.html %}
       </div>
