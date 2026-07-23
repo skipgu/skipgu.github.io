@@ -50,9 +50,11 @@
           {% include search-form.html %}
         </div>
 
-        {% include footer.html %}
       </div>
     </div>
+
+
+    {% include footer.html %}
     
     {% if page.url != "/fallback/" %}
       <a href="#" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
