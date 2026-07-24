@@ -26,7 +26,7 @@
       <li><span>{{ event.time }}</span></li>
     {% endif %}
     {% if event.location.name %}
-      <li><span>{% if event.location.link %}<a href="{{ event.location.link }}">{{ event.location.name }}</a>{% else %}{{ event.location.name }}{% endif %}</span></li>
+      <li><span>{% if event.location.url %}<a href="{{ event.location.url }}">{{ event.location.name }}</a>{% else %}{{ event.location.name }}{% endif %}</span></li>
     {% endif %}
     </ul>
     {% if event.tags.size > 0 %}
@@ -43,4 +43,12 @@
       {{ event.content | markdownify }}
     {% endif %}
   </div>
+  <ul class="entry-links">
+    {% if event.event_link %}
+      <li><a href="{{ event.event_link }}">Event page</a></li>
+    {% endif %}
+    {% if event.related_blogs.url %}
+      <li><a href="{{ event.related_blogs.url }}">{{ event.related_blogs.title }}</a></li>
+    {% endif %}
+  </ul>
 </article>
