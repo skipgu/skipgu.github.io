@@ -1,0 +1,46 @@
+{% if event.id %}
+  {% assign title = event.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = event.title %}
+{% endif %}
+
+<article class="entry">
+  <header class="entry-header">
+    <h3 class="entry-title">{{ title }}</h3>
+  </header>
+  <footer class="entry-meta">
+    <ul>
+    {% if event.start_date %}
+      <li>
+        <span>
+          <time class="entry-time" datetime="{{ event.start_date | date_to_xmlschema }}">
+            {{ event.start_date | date: "%B %-d, %Y" }}
+            {% if event.end_date %}
+              &ndash; {{ event.end_date | date: "%B %-d, %Y" }}
+            {% endif %}
+          </time>
+        </span>
+      </li>
+    {% endif %}
+    {% if event.time %}
+      <li><span>{{ event.time }}</span></li>
+    {% endif %}
+    {% if event.location.name %}
+      <li><span>{% if event.location.link %}<a href="{{ event.location.link }}">{{ event.location.name }}</a>{% else %}{{ event.location.name }}{% endif %}</span></li>
+    {% endif %}
+    </ul>
+    {% if event.tags.size > 0 %}
+      <div class="entry-tags">
+        <span class="icon">{% include icon-tag.svg %}</span>
+        {% for tag in event.tags %}
+          <span class="entry-time" style="margin-right: 0.75rem;">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </footer>
+  <div class="entry-excerpt">
+    {% if event.content %}
+      {{ event.content | markdownify }}
+    {% endif %}
+  </div>
+</article>

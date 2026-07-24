@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+
+        {% if site.events.size > 0 %}
+          <div class="entries-list">
+            {% for event in site.events %}
+              {% include event-entry.html %}
+            {% endfor %}
+          </div>
+        {% else %}
+          <p>No events yet.</p>
+        {% endif %}
+      </div>
+    </article>
+  </div>
+</main>
