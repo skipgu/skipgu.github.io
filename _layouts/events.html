@@ -1,23 +1,30 @@
 ---
-layout: default
+layout: page
 ---
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }}
+{{ content }}
 
-        {% if site.events.size > 0 %}
-          <div class="entries-list">
-            {% for event in site.events %}
-              {% include event-entry.html %}
-            {% endfor %}
-          </div>
-        {% else %}
-          <p>No events yet.</p>
-        {% endif %}
-      </div>
-    </article>
+{% assign upcoming = site.events | where_exp: "e", "e.start_date >= site.time" | sort: "start_date" %}
+{% if upcoming.size > 0 %}
+  <h2>Upcoming Events</h2>
+  <div class="entries-list">
+    {% for event in upcoming %}
+      {% include event-entry.html %}
+    {% endfor %}
   </div>
-</main>
+{% endif %}
+
+{% assign past = site.events | where_exp: "e", "e.start_date < site.time" | sort: "start_date" | reverse %}
+{% if past.size > 0 %}
+  <hr>
+  <h2>Past Events</h2>
+  <div class="entries-list">
+    {% for event in past %}
+      {% include event-entry.html %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if upcoming.size == 0 and past.size == 0 %}
+  <p>No events yet.</p>
+{% endif %}
