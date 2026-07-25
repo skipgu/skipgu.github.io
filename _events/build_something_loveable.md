@@ -16,3 +16,5 @@ related_blogs:
   title: Blog about Lovable
   url: /2026/05/23/build-something-lovable-hackathon.html
 ---
+![Heading Banner](/assets/posts/build-something-lovable-hackathon/banner.png)
+

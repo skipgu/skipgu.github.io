@@ -43,12 +43,10 @@
       {{ event.content | markdownify }}
     {% endif %}
   </div>
-  <ul class="entry-links">
-    {% if event.event_link %}
-      <li><a href="{{ event.event_link }}">Event page</a></li>
-    {% endif %}
-    {% if event.related_blogs.url %}
-      <li><a href="{{ event.related_blogs.url }}">{{ event.related_blogs.title }}</a></li>
-    {% endif %}
-  </ul>
+  {% if event.event_link %}
+    <p><a href="{{ event.event_link }}" class="more-link">Event page <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
+  {% endif %}
+  {% if event.related_blogs.url %}
+    <p><a href="{{ event.related_blogs.url }}" class="more-link">{{ event.related_blogs.title }} <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
+  {% endif %}
 </article>

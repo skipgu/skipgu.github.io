@@ -16,3 +16,5 @@ related_blogs:
   title: Blog about the event 
   url: /2025/04/30/easter-game-jam.html
 ---
+![Heading Banner](/assets/posts/easter-game-jam-2025.webp)
+

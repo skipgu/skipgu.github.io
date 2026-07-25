@@ -12,3 +12,5 @@ location:
 tags:
   - Introduction 
 ---
+![Banner](/assets/imgs/banner-original.png)
+

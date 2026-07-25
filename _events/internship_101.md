@@ -16,3 +16,5 @@ related_blogs:
   title: Blog about the event 
   url: /2025/11/28/internship-101.html
 ---
+![Banner](/assets/posts/internship-101-2025/banner.png)
+

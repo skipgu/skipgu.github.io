@@ -16,3 +16,5 @@ related_blogs:
   title: Blog about the event 
   url: /2026/02/07/internship-experience.html
 ---
+![Banner](/assets/posts/internship-experience-2026/banner.png)
+
