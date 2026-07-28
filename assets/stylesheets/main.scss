@@ -378,3 +378,64 @@ which is set by the theme */
 .is--pushed .back-to-top {
   transform: translateX(320px);
 }
+
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: $white;
+
+  thead th {
+    border-bottom: 2px solid $white;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  tbody td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba($white, 0.12);
+    vertical-align: middle;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  tbody tr:hover td {
+    border-bottom-color: rgba($skip-red, 0.4);
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      color: $skip-red;
+    }
+  }
+
+  .event-title {
+    font-weight: 500;
+  }
+
+  .event-tags {
+    .tag {
+      display: inline-block;
+      margin-right: 0.35rem;
+      margin-bottom: 0.2rem;
+      padding: 0.1rem 0.5rem;
+      border: 1px solid rgba($white, 0.25);
+      border-radius: 3px;
+      font-size: 0.75rem;
+      white-space: nowrap;
+    }
+  }
+}

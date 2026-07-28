@@ -7,21 +7,107 @@ layout: page
 {% assign upcoming = site.events | where_exp: "e", "e.start_date >= site.time" | sort: "start_date" %}
 {% if upcoming.size > 0 %}
   <h2>Upcoming Events</h2>
-  <div class="entries-list">
-    {% for event in upcoming %}
-      {% include event-entry.html %}
-    {% endfor %}
+  <div class="table-wrapper">
+    <table class="events-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Location</th>
+          <th>Tags</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in upcoming %}
+          <tr>
+            <td class="event-title">
+              {% if event.event_link %}<a href="{{ event.event_link }}">{% endif %}
+                {{ event.title }}
+              {% if event.event_link %}</a>{% endif %}
+            </td>
+            <td class="event-date">
+              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
+              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
+              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
+              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
+              {% if event.end_date %}
+                {% if start != end or start_year != end_year %}
+                  {{ start }} – {{ end }}, {{ end_year }}
+                {% else %}
+                  {{ event.start_date | date: "%b %-d, %Y" }}
+                {% endif %}
+              {% else %}
+                {{ event.start_date | date: "%b %-d, %Y" }}
+              {% endif %}
+            </td>
+            <td class="event-location">
+              {% if event.location.url %}<a href="{{ event.location.url }}">{% endif %}
+                {{ event.location.name }}
+              {% if event.location.url %}</a>{% endif %}
+            </td>
+            <td class="event-tags">
+              {% for tag in event.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 {% endif %}
 
 {% assign past = site.events | where_exp: "e", "e.start_date < site.time" | sort: "start_date" | reverse %}
 {% if past.size > 0 %}
-  <hr>
+  <div style="width:500px;"><p></p></div>
   <h2>Past Events</h2>
-  <div class="entries-list">
-    {% for event in past %}
-      {% include event-entry.html %}
-    {% endfor %}
+  <div class="table-wrapper">
+    <table class="events-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Location</th>
+          <th>Tags</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in past %}
+          <tr>
+            <td class="event-title">
+              {% if event.event_link %}<a href="{{ event.event_link }}">{% endif %}
+                {{ event.title }}
+              {% if event.event_link %}</a>{% endif %}
+            </td>
+            <td class="event-date">
+              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
+              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
+              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
+              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
+              {% if event.end_date %}
+                {% if start != end or start_year != end_year %}
+                  {{ start }} – {{ end }}, {{ end_year }}
+                {% else %}
+                  {{ event.start_date | date: "%b %-d, %Y" }}
+                {% endif %}
+              {% else %}
+                {{ event.start_date | date: "%b %-d, %Y" }}
+              {% endif %}
+            </td>
+            <td class="event-location">
+              {% if event.location.url %}<a href="{{ event.location.url }}">{% endif %}
+                {{ event.location.name }}
+              {% if event.location.url %}</a>{% endif %}
+            </td>
+            <td class="event-tags">
+              {% for tag in event.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 {% endif %}
 
