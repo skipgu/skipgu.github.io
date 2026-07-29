@@ -6,7 +6,7 @@ layout: page
 
 {% assign upcoming = site.events | where_exp: "e", "e.start_date >= site.time" | sort: "start_date" %}
 {% if upcoming.size > 0 %}
-  <h2>Upcoming Events</h2>
+  <h2>Current & Upcoming Events</h2>
   <div class="table-wrapper">
     <table class="events-table">
       <thead>
