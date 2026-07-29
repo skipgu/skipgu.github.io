@@ -379,6 +379,15 @@ which is set by the theme */
   transform: translateX(320px);
 }
 
+.layout--events main > .inner {
+  max-width: 100%;
+}
+
+.layout--events .entry-content {
+  width: 100%;
+  max-width: 100%;
+}
+
 .table-wrapper {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -399,6 +408,11 @@ which is set by the theme */
     letter-spacing: 0.05em;
   }
 
+  thead th:last-child,
+  tbody td:last-child {
+    text-align: right;
+  }
+
   tbody td {
     padding: 0.75rem 1rem;
     border-bottom: 1px solid rgba($white, 0.12);
@@ -415,7 +429,8 @@ which is set by the theme */
 
   a {
     color: $white;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
 
     &:hover {
       color: $skip-red;
@@ -431,11 +446,20 @@ which is set by the theme */
       display: inline-block;
       margin-right: 0.35rem;
       margin-bottom: 0.2rem;
-      padding: 0.1rem 0.5rem;
-      border: 1px solid rgba($white, 0.25);
-      border-radius: 3px;
-      font-size: 0.75rem;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid $white;
+      border-radius: 10px;
+      background: transparent;
+      font-size: 0.9rem;
+      color: $white;
       white-space: nowrap;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+
+      &:hover {
+        border-color: $skip-red;
+        color: #fff;
+        background: $skip-red;
+      }
     }
   }
 }

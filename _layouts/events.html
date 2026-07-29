@@ -12,9 +12,10 @@ layout: page
       <thead>
         <tr>
           <th>Event</th>
-          <th>Date</th>
           <th>Location</th>
           <th>Tags</th>
+          <th>Related Blogs</th>
+          <th>Date</th>
         </tr>
       </thead>
       <tbody>
@@ -22,33 +23,42 @@ layout: page
           <tr>
             <td class="event-title">
               {% if event.event_link %}<a href="{{ event.event_link }}">{% endif %}
-                {{ event.title }}
+                {{ event.title }}{% if event.event_link %}{% endif %}
               {% if event.event_link %}</a>{% endif %}
-            </td>
-            <td class="event-date">
-              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
-              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
-              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
-              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
-              {% if event.end_date %}
-                {% if start != end or start_year != end_year %}
-                  {{ start }} – {{ end }}, {{ end_year }}
-                {% else %}
-                  {{ event.start_date | date: "%b %-d, %Y" }}
-                {% endif %}
-              {% else %}
-                {{ event.start_date | date: "%b %-d, %Y" }}
-              {% endif %}
             </td>
             <td class="event-location">
               {% if event.location.url %}<a href="{{ event.location.url }}">{% endif %}
-                {{ event.location.name }}
+                {{ event.location.name }}{% if event.location.url %}{% endif %}
               {% if event.location.url %}</a>{% endif %}
             </td>
             <td class="event-tags">
               {% for tag in event.tags %}
                 <span class="tag">{{ tag }}</span>
               {% endfor %}
+            </td>
+            <td class="event-blog">
+              {% if event.related_blogs.url %}
+                <a href="{{ event.related_blogs.url }}">{{ event.related_blogs.title }}</a>
+              {% else %}
+                –
+              {% endif %}
+            </td>
+            <td class="event-date">
+              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
+              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
+              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
+              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
+              {% capture start_time %}{{ event.start_date | date: "%H:%M" }}{% endcapture %}
+              {% capture end_time %}{{ event.end_date | date: "%H:%M" }}{% endcapture %}
+              {% if event.end_date %}
+                {% if start != end or start_year != end_year %}
+                  {{ start }}, {{ start_time }} – {{ end }}, {{ end_time }}, {{ end_year }}
+                {% else %}
+                  {{ event.start_date | date: "%b %-d, %Y" }}, {{ start_time }} – {{ end_time }}
+                {% endif %}
+              {% else %}
+                {{ event.start_date | date: "%b %-d, %Y, %H:%M" }}
+              {% endif %}
             </td>
           </tr>
         {% endfor %}
@@ -66,9 +76,10 @@ layout: page
       <thead>
         <tr>
           <th>Event</th>
-          <th>Date</th>
           <th>Location</th>
           <th>Tags</th>
+          <th>Related Blogs</th>
+          <th>Date</th>
         </tr>
       </thead>
       <tbody>
@@ -76,33 +87,42 @@ layout: page
           <tr>
             <td class="event-title">
               {% if event.event_link %}<a href="{{ event.event_link }}">{% endif %}
-                {{ event.title }}
+                {{ event.title }}{% if event.event_link %}{% endif %}
               {% if event.event_link %}</a>{% endif %}
-            </td>
-            <td class="event-date">
-              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
-              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
-              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
-              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
-              {% if event.end_date %}
-                {% if start != end or start_year != end_year %}
-                  {{ start }} – {{ end }}, {{ end_year }}
-                {% else %}
-                  {{ event.start_date | date: "%b %-d, %Y" }}
-                {% endif %}
-              {% else %}
-                {{ event.start_date | date: "%b %-d, %Y" }}
-              {% endif %}
             </td>
             <td class="event-location">
               {% if event.location.url %}<a href="{{ event.location.url }}">{% endif %}
-                {{ event.location.name }}
+                {{ event.location.name }}{% if event.location.url %}{% endif %}
               {% if event.location.url %}</a>{% endif %}
             </td>
             <td class="event-tags">
               {% for tag in event.tags %}
                 <span class="tag">{{ tag }}</span>
               {% endfor %}
+            </td>
+            <td class="event-blog">
+              {% if event.related_blogs.url %}
+                <a href="{{ event.related_blogs.url }}">{{ event.related_blogs.title }}</a>
+              {% else %}
+                –
+              {% endif %}
+            </td>
+            <td class="event-date">
+              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
+              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
+              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
+              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
+              {% capture start_time %}{{ event.start_date | date: "%H:%M" }}{% endcapture %}
+              {% capture end_time %}{{ event.end_date | date: "%H:%M" }}{% endcapture %}
+              {% if event.end_date %}
+                {% if start != end or start_year != end_year %}
+                  {{ start }}, {{ start_time }} – {{ end }}, {{ end_time }}, {{ end_year }}
+                {% else %}
+                  {{ event.start_date | date: "%b %-d, %Y" }}, {{ start_time }} – {{ end_time }}
+                {% endif %}
+              {% else %}
+                {{ event.start_date | date: "%b %-d, %Y, %H:%M" }}
+              {% endif %}
             </td>
           </tr>
         {% endfor %}
