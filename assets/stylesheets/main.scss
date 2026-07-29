@@ -462,4 +462,62 @@ which is set by the theme */
       }
     }
   }
+
+  @media (max-width: $medium) {
+    thead {
+      display: none;
+    }
+
+    tbody tr {
+      display: block;
+      margin-bottom: 1rem;
+      border: 1px solid rgba($white, 0.15);
+      border-radius: 2px;
+    }
+
+    tbody td {
+      display: block;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid rgba($white, 0.08);
+      text-align: left;
+
+      &:last-child {
+        text-align: left;
+        border-bottom: none;
+      }
+
+      &::before {
+        content: attr(data-label);
+        display: inline-block;
+        font-weight: 600;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: rgba($white, 0.5);
+        margin-right: 0.5rem;
+        min-width: 5rem;
+      }
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 1px solid rgba($white, 0.08);
+    }
+
+    tbody tr:last-child td:last-child {
+      border-bottom: none;
+    }
+
+    .event-title {
+      font-size: 1rem;
+
+      &::before {
+        display: none !important;
+      }
+    }
+
+    .event-tags .tag {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+    }
+  }
 }
