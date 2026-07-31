@@ -1,0 +1,28 @@
+<td class="event-date" data-label="Date">
+  {% if event.date_uncertain %}
+    TBD
+  {% else %}
+    {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
+    {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
+    {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
+    {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
+    {% capture start_time %}{{ event.start_date | date: "%H:%M" }}{% endcapture %}
+    {% capture end_time %}{{ event.end_date | date: "%H:%M" }}{% endcapture %}
+    {% if event.time_uncertain %}
+      {% if start != end or start_year != end_year %}
+        {{ start }} – {{ end }}, {{ end_year }}, TBD
+      {% else %}
+        {{ event.start_date | date: "%b %-d, %Y" }}, TBD
+      {% endif %}
+    {% elsif event.end_date %}
+      {% if start != end or start_year != end_year %}
+        {{ start }}, {{ start_time }} – {{ end }}, {{ end_time }}, {{ end_year }}
+      {% else %}
+        {{ event.start_date | date: "%b %-d, %Y" }}, {{ start_time }} – {{ end_time }}
+      {% endif %}
+    {% else %}
+      {{ event.start_date | date: "%b %-d, %Y, %H:%M" }}
+    {% endif %}
+  {% endif %}
+  {% include event-badge.html event=event %}
+</td>

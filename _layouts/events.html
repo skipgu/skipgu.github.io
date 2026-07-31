@@ -43,24 +43,7 @@ layout: page
                 –
               {% endif %}
             </td>
-            <td class="event-date" data-label="Date">
-              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
-              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
-              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
-              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
-              {% capture start_time %}{{ event.start_date | date: "%H:%M" }}{% endcapture %}
-              {% capture end_time %}{{ event.end_date | date: "%H:%M" }}{% endcapture %}
-              {% if event.end_date %}
-                {% if start != end or start_year != end_year %}
-                  {{ start }}, {{ start_time }} – {{ end }}, {{ end_time }}, {{ end_year }}
-                {% else %}
-                  {{ event.start_date | date: "%b %-d, %Y" }}, {{ start_time }} – {{ end_time }}
-                {% endif %}
-              {% else %}
-                {{ event.start_date | date: "%b %-d, %Y, %H:%M" }}
-              {% endif %}
-              {% include event-badge.html event=event %}
-            </td>
+            {% include event-date.html event=event %}
           </tr>
         {% endfor %}
       </tbody>
@@ -108,23 +91,7 @@ layout: page
                 –
               {% endif %}
             </td>
-            <td class="event-date" data-label="Date">
-              {% capture start %}{{ event.start_date | date: "%b %-d" }}{% endcapture %}
-              {% capture end %}{{ event.end_date | date: "%b %-d" }}{% endcapture %}
-              {% capture start_year %}{{ event.start_date | date: "%Y" }}{% endcapture %}
-              {% capture end_year %}{{ event.end_date | date: "%Y" }}{% endcapture %}
-              {% capture start_time %}{{ event.start_date | date: "%H:%M" }}{% endcapture %}
-              {% capture end_time %}{{ event.end_date | date: "%H:%M" }}{% endcapture %}
-              {% if event.end_date %}
-                {% if start != end or start_year != end_year %}
-                  {{ start }}, {{ start_time }} – {{ end }}, {{ end_time }}, {{ end_year }}
-                {% else %}
-                  {{ event.start_date | date: "%b %-d, %Y" }}, {{ start_time }} – {{ end_time }}
-                {% endif %}
-              {% else %}
-                {{ event.start_date | date: "%b %-d, %Y, %H:%M" }}
-              {% endif %}
-            </td>
+            {% include event-date.html event=event %}
           </tr>
         {% endfor %}
       </tbody>
