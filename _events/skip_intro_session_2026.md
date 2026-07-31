@@ -1,6 +1,5 @@
 ---
-title: SKIP intro session 2026 
-sub_title:  
+title: SKIP Intro Session 2026
 start_date: 2026-08-28 14:00:00 +0200
 end_date: 2026-08-28 15:00:00 +0200
 
@@ -10,11 +9,9 @@ time_uncertain: true # displays TBD for the hour, date is still displayed
 event_link: https://orbi.io/l/bFAoM50ug9nfSbHi
 
 location:
-  name: Building Jupiter, room TBD 
-  url: https://maps.chalmers.se/#24c0028f-a6e4-4f40-8616-84c584957877
+  name: Alfons (TBA), Hus Jupiter, Campus Lindholmen
+  url: https://maps.chalmers.se/#afd78f6e-fc2e-4874-a63a-6cf38f1e684a
 
 tags:
-  - Introduction 
+  - Kickoff 
 ---
-![Banner](/assets/imgs/banner-original.png)
-
