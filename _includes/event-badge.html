@@ -1,0 +1,12 @@
+{% assign today_str = site.time | date: "%Y-%m-%d" %}
+{% assign tomorrow_str = site.time | date: "%s" | plus: 86400 | date: "%Y-%m-%d" %}
+{% assign event_day = include.event.start_date | date: "%Y-%m-%d" %}
+{% unless include.event.date_uncertain %}
+  {% if include.event.start_date <= site.time and include.event.end_date >= site.time %}
+    <span class="event-badge">Ongoing</span>
+  {% elsif event_day == today_str %}
+    <span class="event-badge">Today</span>
+  {% elsif event_day == tomorrow_str %}
+    <span class="event-badge">Tomorrow</span>
+  {% endif %}
+{% endunless %}

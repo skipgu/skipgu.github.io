@@ -1,0 +1,104 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign upcoming = site.events | where_exp: "e", "e.end_date >= site.time" | sort: "start_date" %}
+{% if upcoming.size > 0 %}
+  <h2>Current & Upcoming Events</h2>
+  <div class="table-wrapper">
+    <table class="events-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Location</th>
+          <th>Tags</th>
+          <th>Related Blogs</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in upcoming %}
+          <tr>
+            <td class="event-title" data-label="Event">
+              {% if event.event_link %}<a href="{{ event.event_link }}">{% endif %}
+                {{ event.title }}{% if event.event_link %}{% endif %}
+              {% if event.event_link %}</a>{% endif %}
+            </td>
+            <td class="event-location" data-label="Location">
+              {% if event.location.url %}<a href="{{ event.location.url }}">{% endif %}
+                {{ event.location.name }}{% if event.location.url %}{% endif %}
+              {% if event.location.url %}</a>{% endif %}
+            </td>
+            <td class="event-tags" data-label="Tags">
+              {% for tag in event.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </td>
+            <td class="event-blog" data-label="Blog">
+              {% if event.related_blogs.url %}
+                <a href="{{ event.related_blogs.url }}">{{ event.related_blogs.title }}</a>
+              {% else %}
+                –
+              {% endif %}
+            </td>
+            {% include event-date.html event=event %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}
+
+{% assign past = site.events | where_exp: "e", "e.end_date < site.time" | sort: "start_date" | reverse %}
+{% if past.size > 0 %}
+  <div style="width:500px;"><p></p></div>
+  <h2>Past Events</h2>
+  <div class="table-wrapper">
+    <table class="events-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Location</th>
+          <th>Tags</th>
+          <th>Related Blogs</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in past %}
+          <tr>
+            <td class="event-title" data-label="Event">
+              {% if event.event_link %}<a href="{{ event.event_link }}">{% endif %}
+                {{ event.title }}{% if event.event_link %}{% endif %}
+              {% if event.event_link %}</a>{% endif %}
+            </td>
+            <td class="event-location" data-label="Location">
+              {% if event.location.url %}<a href="{{ event.location.url }}">{% endif %}
+                {{ event.location.name }}{% if event.location.url %}{% endif %}
+              {% if event.location.url %}</a>{% endif %}
+            </td>
+            <td class="event-tags" data-label="Tags">
+              {% for tag in event.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </td>
+            <td class="event-blog" data-label="Blog">
+              {% if event.related_blogs.url %}
+                <a href="{{ event.related_blogs.url }}">{{ event.related_blogs.title }}</a>
+              {% else %}
+                –
+              {% endif %}
+            </td>
+            {% include event-date.html event=event %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}
+
+{% if upcoming.size == 0 and past.size == 0 %}
+  <p>No events yet.</p>
+{% endif %}

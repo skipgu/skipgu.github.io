@@ -7,6 +7,8 @@ navigation_pages:
     url: https://github.com/skipgu/past-exams
   - title: IoT Kits
     url: /fallback
+  - title: Events
+    url: /events
   - title: Blogs
     url: /blogs
 

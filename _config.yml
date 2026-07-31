@@ -14,4 +14,16 @@ paginate_path: /page:num/
 
 plugins:
   - jekyll-paginate
-  
+
+# since events are not native like the posts, we define them here
+collections:
+  events:
+    output: false
+
+# empty values to parse the date fields as dates
+defaults:
+  - scope:
+      path: "_events"
+    values:
+      start_date:
+      end_date:
