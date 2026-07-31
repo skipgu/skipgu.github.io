@@ -192,9 +192,17 @@ $gray: #555;
 
   @media (max-width: $medium) {
     flex-direction: column;
+    align-items: stretch;
 
     .home-upcoming-events {
       order: -1;
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+    .home-recent-posts {
+      flex: 0 0 auto;
+      width: 100%;
     }
   }
 }
