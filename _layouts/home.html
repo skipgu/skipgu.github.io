@@ -27,7 +27,7 @@ layout: default
 
     <div class="home-upcoming-events">
       <h2>Current & Upcoming Events</h2>
-      {% assign upcoming = site.events | where_exp: "e", "e.start_date >= site.time" | sort: "start_date" %}
+      {% assign upcoming = site.events | where_exp: "e", "e.end_date >= site.time" | sort: "start_date" %}
       {% if upcoming.size > 0 %}
         <div class="table-wrapper">
           <table class="events-table events-table--compact">
@@ -81,6 +81,7 @@ layout: default
                     {% else %}
                       {{ event.start_date | date: "%b %-d, %Y, %H:%M" }}
                     {% endif %}
+                    {% include event-badge.html event=event %}
                   </td>
                 </tr>
               {% endfor %}

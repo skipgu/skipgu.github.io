@@ -427,6 +427,21 @@ which is set by the theme */
   -webkit-overflow-scrolling: touch;
 }
 
+.event-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: $skip-red;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .events-table {
   width: 100%;
   border-collapse: collapse;
