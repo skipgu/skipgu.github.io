@@ -1,7 +1,7 @@
 ---
-title: SEM Kickoff 2024
-start_date: 2024-08-26 8:00:00 +0200
-end_date: 2024-09-13 23:00:00 +0200
+title: SEM Kickoff 2026
+start_date: 2026-08-24 8:00:00
+end_date: 2026-09-19 23:00:00
 event_link: https://www.instagram.com/oopsex_/
 
 location:
@@ -9,5 +9,6 @@ location:
   url: https://maps.app.goo.gl/DEwBuCi1B5H37PPh7
 
 tags:
-  - Kickoff 
+  - Kickoff
+  - OOPsex
 ---

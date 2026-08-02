@@ -1,16 +1,16 @@
 ---
 title: SKIP Intro Session 2026
-start_date: 2026-08-28 14:00:00 +0200
-end_date: 2026-08-28 15:00:00 +0200
+start_date: 2026-08-28 14:00:00
+end_date: 2026-08-28 15:00:00
 
 time_uncertain: true # displays TBD for the hour, date is still displayed
 # date_uncertain: false # displays TBD for the whole date section but orders events based on the given date comparison 
 
-event_link: https://orbi.io/l/bFAoM50ug9nfSbHi
+event_link: https://www.instagram.com/oopsex_/
 
 location:
-  name: Alfons (TBA), Hus Jupiter, Campus Lindholmen
-  url: https://maps.chalmers.se/#afd78f6e-fc2e-4874-a63a-6cf38f1e684a
+  name: TBA, Campus Lindholmen
+  url: https://maps.chalmers.se/#c5d6ba21-7336-49f7-aef7-b161fcc91ad7
 
 tags:
   - Kickoff 

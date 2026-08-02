@@ -1,7 +1,7 @@
 ---
 title: EASTER GAME JAM 2025
-start_date: 2025-04-18 17:00:00 +0200
-end_date: 2025-04-20 21:00:00 +0200
+start_date: 2025-04-18 17:00:00
+end_date: 2025-04-20 21:00:00
 event_link: https://orbi.io/l/bZd5cSsAXsQIfC9O
 
 location:
@@ -12,6 +12,6 @@ tags:
   - Game Jam
 
 related_blogs:
-  title: Blog about the event 
+  title: Link 
   url: /2025/04/30/easter-game-jam.html
 ---

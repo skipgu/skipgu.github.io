@@ -1,7 +1,7 @@
 ---
 title: 💻 THE INTERNSHIP EXPERIENCE
-start_date: 2026-02-02 14:00:00 +0200
-end_date: 2026-02-02 15:00:00 +0200
+start_date: 2026-02-02 14:00:00
+end_date: 2026-02-02 15:00:00
 event_link: https://orbi.io/l/bFAoM50ug9nfSbHi
 
 location:
@@ -13,6 +13,6 @@ tags:
   - Guest Lecture 
 
 related_blogs:
-  title: Blog about the event 
+  title: Link
   url: /2026/02/07/internship-experience.html
 ---

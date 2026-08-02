@@ -1,7 +1,7 @@
 ---
 title: 💻 Intership 101 📚
-start_date: 2025-11-25 12:00:00 +0200
-end_date: 2025-11-25 13:00:00 +0200
+start_date: 2025-11-25 12:00:00
+end_date: 2025-11-25 13:00:00
 event_link: https://orbi.io/l/6JVL7mxYvTHkbTUk
 
 location:
@@ -13,6 +13,6 @@ tags:
   - Guest Lecture 
 
 related_blogs:
-  title: Blog about the event 
+  title: Link
   url: /2025/11/28/internship-101.html
 ---
