@@ -6,6 +6,7 @@ sub_title: Explore how industry employs AI to enhance their products, network,
 
 tags:
   - Hackathon
+  - AI
 
 author:
   name: SKIP
