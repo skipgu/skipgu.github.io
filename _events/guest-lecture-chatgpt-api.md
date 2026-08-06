@@ -12,5 +12,9 @@ tags:
   - Guest Lecture
   - AI
 
+related_blogs:
+  title: Link
+  url: /2023/11/06/guest-lecture-chatgpt.html
+
 ---
 
