@@ -1,5 +1,5 @@
 ---
-title: NASA's Space Apps Challenge 2024
+title: NASA's Space Apps Challenge 2025
 start_date: 2025-10-04 09:00:00
 end_date: 2025-10-06 00:10:00
 event_link: https://www.spaceappschallenge.org/2025/local-events/gothenburg/

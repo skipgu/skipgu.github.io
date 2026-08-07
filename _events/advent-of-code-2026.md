@@ -1,7 +1,7 @@
 ---
 title: Advent of Code 2026
-start_date: 2026-12-01 00:00:00
-end_date: 2026-12-12 23:00:00
+start_date: 2026-12-01 06:00:00
+end_date: 2026-12-13 06:00:00
 
 location:
   name: Online

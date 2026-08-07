@@ -10,10 +10,11 @@ location:
 
 tags:
   - Guest Lecture
+  - Workshop
 
 related_blogs:
   title: Link
   url: /2023/12/07/christmas-themed-events-with-skip.html
-  
+
 ---
 

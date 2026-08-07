@@ -1,5 +1,5 @@
 ---
-title: The Build Something Lovable Hackathon
+title: 🕹️ Build Something Lovable - Hackathon 🚀
 start_date: 2026-05-15 17:00:00
 end_date: 2026-05-17 20:00:00
 event_link: https://orbi.io/l/cC7PPq4GUfS6IBt3

@@ -1,7 +1,7 @@
 ---
 title: March Game Jam 2024
 start_date: 2024-03-22 18:00:00
-end_date: 2024-03-23 20:00:00
+end_date: 2024-03-24 20:00:00
 event_link: https://orbi.io/l/WPuQgchNqT2dSq4W
 
 location:
