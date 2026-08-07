@@ -4,6 +4,7 @@ sub_title: An AI-powered hackathon
 
 tags:
   - Hackathon
+  - AI
 
 author:
   name: Sree Harshini Ravi & Adam Sindler (SKIP)

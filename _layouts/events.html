@@ -4,6 +4,7 @@ layout: page
 
 {{ content }}
 
+<p>Here you can find all the events that SKIP has been or will be (co-)organizing, or events where SEM & SKIP members have heavily participated in.</p>
 {% assign upcoming = site.events | where_exp: "e", "e.end_date >= site.time" | sort: "start_date" %}
 {% if upcoming.size > 0 %}
   <h2>Current & Upcoming Events</h2>
