@@ -172,7 +172,7 @@ $gray: #555;
 }
 
 .index {
-    max-width: 100%;  
+    max-width: 80%;
     margin: 0 auto;
     margin-top: 50px;
     padding: 0 20px;
@@ -218,7 +218,7 @@ $gray: #555;
 }
 
 .home-upcoming-events {
-  flex: 0 0 40%;
+  flex: 0 0 35%;
   min-width: 0;
 }
 
@@ -434,12 +434,26 @@ which is set by the theme */
 
     .entry-content {
       width: 95%;
+      
+      p {
+        &:has(img) {
+          text-align: center;
+        }
+      }
 
       .entries-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+        .entry {
+          max-width: 100%;
+
+          @include breakpoint($medium) {
+            max-width: 70%;
+          }
+        }
 
         .entries-list {
           max-width: 100%;
