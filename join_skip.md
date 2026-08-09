@@ -11,7 +11,7 @@ At SKIP, we welcome students who are enthusiastic about enhancing the academic a
 
 To effectively achieve its mission, SKIP comprises 3 distinct categories of memberships: "**Board Members**", "**Regular Members**," and "**Volunteer/Friend of SKIP**." For the sake of this illustration, we will consider Regular Members and Volunteers as simply Members as they have almost the same privileges. <br>
 
-![Skip structure](/assets/imgs/skip-structure.png)
+<img src="/assets/imgs/skip-structure.png" alt="Skip Structure" width="625px" >
 
 Whether you're interested in taking a leadership role as a board member or providing valuable support as a regular member or a Friend of SKIP, there's a place for you in our community. <br>
 

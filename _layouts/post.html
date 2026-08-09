@@ -9,10 +9,10 @@ layout: default
     <article class="entry-wrap">
       <div class="entry-content">
         <div class="entries-container">
-          <div class="entry">
+          <section>
             {{ content }}
-          </div>
-        </div>
+          </>
+        </section>
       </div>
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
