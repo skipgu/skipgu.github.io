@@ -41,7 +41,9 @@ If you're passionate about event planning, leadership, and making a significant 
 ### **As board members, you will:**
 - **Organize events:** Board members play a central role in the SKIP association, forming the core team responsible for planning, organizing, and executing events.
 - **Manage events:** They have the direct responsibility for conceptualizing, coordinating, and overseeing various events that contribute to the enrichment of the student experience.
-- **Lead:** Board members are entrusted with leadership roles that enable them to make strategic decisions and drive the direction of SKIP. <br> [<img src="/assets/imgs/board-member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-board-member26)<br><br>
+- **Lead:** Board members are entrusted with leadership roles that enable them to make strategic decisions and drive the direction of SKIP. <br> 
+
+[<img src="/assets/imgs/board-member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-board-member26)<br><br>
 
 
 As a regular member, you can actively contribute to the success of SKIP. Your participation in events and feedback are highly valued. Additionally, you'll enjoy perks like priority access to events and discounts. If you're ready to dive in and be an essential part of the SKIP experience, apply today! New Regular Members have to be admitted on any board meeting and the membership lasts until the end of board's mandate.<br> 
@@ -52,7 +54,9 @@ As a regular member, you can actively contribute to the success of SKIP. Your pa
 ### **As regular members, you will:**
 - **Support & Give feedback:** Regular members form an essential part of SKIP by actively participating in events and providing valuable feedback. They assist in the successful execution of activities initiated by board members.
 - **Get member benefits:** Regular members enjoy additional perks such as priority access to events, discounts, and the opportunity to engage in the SKIP community.
-- **Contribute:** The insights and contributions of regular members are integral to ensuring that events cater to the needs and preferences of the student body. <br> [<img src="/assets/imgs/member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-member)<br><br>
+- **Contribute:** The insights and contributions of regular members are integral to ensuring that events cater to the needs and preferences of the student body. <br> 
+
+[<img src="/assets/imgs/member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-member)<br><br>
 
 ## **Volunteer/Friend of SKIP**
 As a Friend of SKIP, you can actively contribute to the success of SKIP even if you are not a Student at the University of Gothenburg or after your graduation from the University of Gothenburg. Your participation in events and feedback are highly valued. If you're ready to dive in and be an essential part of the SKIP experience, email us today at [_skip@gota.gu.se_](mailto:skip@gota.gu.se)! New Friends of SKIP have to be admitted on any board meeting and the membership can last until the end of board's mandate or only for specific events.<br> 
