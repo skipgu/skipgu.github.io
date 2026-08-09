@@ -166,6 +166,7 @@ $gray: #555;
     }
 }
 
+
 .site-title {
   padding-right: 2rem;
 }
@@ -411,6 +412,34 @@ which is set by the theme */
 
 .is--pushed .back-to-top {
   transform: translateX(320px);
+}
+
+.intro > .inner {
+  display: flex;
+  justify-content: center;
+
+  .intro-text {
+    width: 95%;
+  }
+}
+
+.page-content > .inner {
+  max-width: 100%;
+  width: 100%;
+
+  .entry-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .entry-content {
+      width: 95%;
+
+      .entries-list {
+        margin: 0 4rem;
+      }
+    }
+  }
 }
 
 .layout--events main > .inner {
