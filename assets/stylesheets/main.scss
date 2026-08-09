@@ -632,3 +632,13 @@ which is set by the theme */
     @include events-card-view;
   }
 }
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  .full-width-column {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+}
