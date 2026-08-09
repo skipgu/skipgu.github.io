@@ -469,6 +469,12 @@ which is set by the theme */
   }
 }
 
+.layout--post {
+  .intro > .inner .intro-text {
+    text-align: center;
+  }
+}
+
 .layout--events main > .inner {
   max-width: 100%;
 }
