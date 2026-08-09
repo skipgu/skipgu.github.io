@@ -5,9 +5,10 @@ layout: page
 {{ content }}
 
 {% include blog-filters.html %}
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {% for post in site.posts %}
-    {% include entry.html %}
-  {% endfor %}
+<div class="entries-container">
+  <div class="entries-{{ page.entries_layout | default: 'list' }}">
+    {% for post in site.posts %}
+      {% include entry.html %}
+    {% endfor %}
+  </div>
 </div>
