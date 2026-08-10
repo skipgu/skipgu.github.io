@@ -2,7 +2,8 @@
     <span class="entry-tags">
         <span class="icon">{% include icon-tag.svg %}</span>
         {% for tag in page.tags %}
-            <span class="entry-time" style="margin-right: 0.75rem;">{{ tag }}</span>
+            <span class="entry-time">{{ tag }}</span>
+            {% unless forloop.last %} <span style="margin-right: 0.5rem;">,</span> {% endunless %}
         {% endfor %}
     </span>
 {% else %}
