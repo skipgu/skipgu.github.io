@@ -48,7 +48,7 @@ If you're passionate about event planning, leadership, and making a significant 
 
 [<img src="/assets/imgs/board-member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-board-member26)<br><br>
 
-
+## Regular Members
 As a regular member, you can actively contribute to the success of SKIP. Your participation in events and feedback are highly valued. Additionally, you'll enjoy perks like priority access to events and discounts. If you're ready to dive in and be an essential part of the SKIP experience, apply today! New Regular Members have to be admitted on any board meeting and the membership lasts until the end of board's mandate.<br> 
 
 ### **Requirement:**
