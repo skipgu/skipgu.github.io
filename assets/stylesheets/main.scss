@@ -670,6 +670,9 @@ which is set by the theme */
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "left-col section3"
-      "section4 section4";
   }
+}
+
+.apply-img {
+  margin-top: 1.5rem;
 }

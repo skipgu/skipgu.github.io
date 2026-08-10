@@ -18,7 +18,7 @@ To effectively achieve its mission, SKIP comprises 3 distinct categories of memb
 Whether you're interested in taking a leadership role as a board member or providing valuable support as a regular member or a Friend of SKIP, there's a place for you in our community. <br>
 
 > **NOTE:** 
-> It's important to note that <u>all board members must also be <a href="https://medlem.gotastudentkar.se/sv/">regular members of Göta Studentkår</a></u>.
+> It's important to note that <u>all board members must also be</u> <u><a href="https://medlem.gotastudentkar.se/sv/">regular members of Göta Studentkår</a></u>.
 
 </div>
 <div class="section-2" markdown="block">
@@ -31,6 +31,13 @@ The structure of SKIP, with board members at its core and regular members and Fr
 Should you have any questions or require further information, please don't hesitate to reach out to us at [_skip@gota.gu.se_](mailto:skip@gota.gu.se) or on our other Social Media Platforms. We look forward to welcoming you as part of the SKIP family!
 
 </div>
+
+<div class="section-4" markdown="block">
+
+<img src="/assets/icons/logo_skip.png" alt="Skip Logo" width="400">
+
+</div>
+
 </div>
 <div class="section-3" markdown="block">
 
@@ -46,7 +53,7 @@ If you're passionate about event planning, leadership, and making a significant 
 - **Manage events:** They have the direct responsibility for conceptualizing, coordinating, and overseeing various events that contribute to the enrichment of the student experience.
 - **Lead:** Board members are entrusted with leadership roles that enable them to make strategic decisions and drive the direction of SKIP. <br> 
 
-[<img src="/assets/imgs/board-member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-board-member26)<br><br>
+[<img src="/assets/imgs/board-member-apply.png" alt="Apply Now" width="400" class="apply-img">](https://tinyurl.com/skip-board-member26)<br><br>
 
 ## Regular Members
 As a regular member, you can actively contribute to the success of SKIP. Your participation in events and feedback are highly valued. Additionally, you'll enjoy perks like priority access to events and discounts. If you're ready to dive in and be an essential part of the SKIP experience, apply today! New Regular Members have to be admitted on any board meeting and the membership lasts until the end of board's mandate.<br> 
@@ -59,7 +66,7 @@ As a regular member, you can actively contribute to the success of SKIP. Your pa
 - **Get member benefits:** Regular members enjoy additional perks such as priority access to events, discounts, and the opportunity to engage in the SKIP community.
 - **Contribute:** The insights and contributions of regular members are integral to ensuring that events cater to the needs and preferences of the student body. <br> 
 
-[<img src="/assets/imgs/member-apply.png" alt="Apply Now" width="500" >](https://tinyurl.com/skip-member)<br><br>
+[<img src="/assets/imgs/member-apply.png" alt="Apply Now" width="400" class="apply-img">](https://tinyurl.com/skip-member)<br><br>
 
 ## **Volunteer/Friend of SKIP**
 As a Friend of SKIP, you can actively contribute to the success of SKIP even if you are not a Student at the University of Gothenburg or after your graduation from the University of Gothenburg. Your participation in events and feedback are highly valued. If you're ready to dive in and be an essential part of the SKIP experience, email us today at [_skip@gota.gu.se_](mailto:skip@gota.gu.se)! New Friends of SKIP have to be admitted on any board meeting and the membership can last until the end of board's mandate or only for specific events.<br> 
@@ -69,8 +76,3 @@ As a Friend of SKIP, you can actively contribute to the success of SKIP even if 
 
 </div>
 
-<div class="section-4" markdown="block">
-
-<img src="/assets/icons/logo_skip.png" alt="Skip Logo" width="400">
-
-</div>
