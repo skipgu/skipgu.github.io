@@ -3,8 +3,8 @@ title: Join SKIP
 layout: grid-page
 permalink: /join-skip/
 ---
-
-<div markdown="block">
+<div class="left-col">
+<div class="section-1" markdown="block">
 
 ## Join Us: Become a SKIP Member!
 **Are you eager to be part of a dynamic and impactful student association?** <br><br>
@@ -20,6 +20,9 @@ Whether you're interested in taking a leadership role as a board member or provi
 > **NOTE:** 
 > It's important to note that <u>all board members must also be <a href="https://medlem.gotastudentkar.se/sv/">regular members of Göta Studentkår</a></u>.
 
+</div>
+<div class="section-2" markdown="block">
+
 ## Collaboration
 Board members, regular members and friends of SKIP work collaboratively to bring meaningful experiences to the broader student community. The synergy between these three categories of members is essential for the association's success.
 
@@ -28,8 +31,8 @@ The structure of SKIP, with board members at its core and regular members and Fr
 Should you have any questions or require further information, please don't hesitate to reach out to us at [_skip@gota.gu.se_](mailto:skip@gota.gu.se) or on our other Social Media Platforms. We look forward to welcoming you as part of the SKIP family!
 
 </div>
-
-<div markdown="block">
+</div>
+<div class="section-3" markdown="block">
 
 ## **Board Members**
 If you're passionate about event planning, leadership, and making a significant impact, consider joining our board. Board members have a crucial role in shaping the direction of SKIP and a mandate for one year (usually from the beginning of May of one year until the end of April of the next one). Please note that board member applications are individually reviewed and usually only once a year (March-May). If selected, you will be scheduled for an onboarding process to help you transition into your leadership role effectively. <br>
@@ -66,7 +69,7 @@ As a Friend of SKIP, you can actively contribute to the success of SKIP even if 
 
 </div>
 
-<div class="full-width-column" markdown="block">
+<div class="section-4" markdown="block">
 
 <img src="/assets/icons/logo_skip.png" alt="Skip Logo" width="400">
 
