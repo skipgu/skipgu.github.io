@@ -475,6 +475,11 @@ which is set by the theme */
   }
 }
 
+.byline-item {
+  display: inline-flex;
+  align-items: center;
+}
+
 .layout--events main > .inner {
   max-width: 100%;
 }
