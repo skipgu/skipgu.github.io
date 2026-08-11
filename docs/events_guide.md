@@ -11,15 +11,15 @@ Event data is stored in markdown files in the `_events` directory. To add an eve
 
 ### File naming conventions 
 - You should name these markdown files according to the title of the event. 
-- Words should be seperated by regular hypens
-- Preferrably also specify the year that the event took place after the event name, to avoid collisions with other events  
+- Words should be separated by regular hyphens
+- Preferably also specify the year that the event took place after the event name, to avoid collisions with other events  
 
 ### Field format
 - After each field there has to be a ":" and a space 
 - The fields have to be between the two `---` lines in the first and the last line 
 
 ### Required fields
-Some fields need to be specified in order to properly display them (they have no fallbacks). Every event must contain the following fields:
+Some fields are required, as they need to be displayed. Every event must contain the following fields:
 ```md 
 ---
 title: <Title of the event> 
@@ -31,10 +31,9 @@ tags:
   - <Tag name> 
 ---
 ```
-Note that location is a *composite field*, where only the `name` field is required. Also note that the nested fields of these composite fields (like tags/location) should be indented using **two spaces** in order to properly display them. 
+Note that location is a *composite field*, where only the `name` field is required. Also note that the nested fields of these composite fields (like tags/location) must be indented using a **consistent number of spaces** but you should aim to use **two spaces** whenever possible.
 
 ### Optional fields
-Some fields fall back to "-" if you don't specify them. These are the following:
 ```md
 ---
 event_link: <Link to the event> -> On Orbi if possible
