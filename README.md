@@ -1,4 +1,4 @@
-## SKIP @ &#x1F310;
+# SKIP Website &#x1F310;
 
 The website is based on
 [this](https://github.com/mmistakes/jekyll-theme-basically-basic) template.
@@ -26,3 +26,8 @@ $ ./scripts/dev.sh
 
 The `_config_local.yml` file overrides the url, and makes it so the website is
 served locally. 
+
+## Guides
+Instructions and documentation for:
+- [Blog post](docs/blogs-guide.md)
+- [Event entry](docs/events-guide.md)

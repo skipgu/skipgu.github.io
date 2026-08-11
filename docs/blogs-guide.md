@@ -23,13 +23,14 @@ sub_title: <Subtitle of the blog>
 
 tags:
   - <Tag name> 
+  - <Tag name> 
 
 author:
   name: <Name of the author> 
 ---
 
 ```
-Note that some fields are composite, and their nested fields (like author->name) must be indented using a **consistent number of spaces** but you should aim to use **two spaces** whenever possible.
+Note that multiple tags can be used and that some fields are composite, and their nested fields (like author->name) must be indented using a **consistent number of spaces** but you should aim to use **two spaces** whenever possible. Usually the **person's name** is used or **SKIP**
 
 ### Optional fields
 ```md
