@@ -10,4 +10,8 @@ location:
 
 tags:
   - Kickoff
+
+related_blogs:
+  title: Link
+  url: /2026/09/20/sk
 ---
