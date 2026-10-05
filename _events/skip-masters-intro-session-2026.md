@@ -9,9 +9,9 @@ location:
   url: https://maps.chalmers.se/#afd78f6e-fc2e-4874-a63a-6cf38f1e684a
 
 tags:
-  - Kickoff
+  - 
   
 related_blogs:
   title: Link
-  url: /2026/09/20/sk
+  url: /2026/09/20/skip-start.html
 ---

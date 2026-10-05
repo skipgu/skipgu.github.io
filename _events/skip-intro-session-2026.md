@@ -13,5 +13,5 @@ tags:
 
 related_blogs:
   title: Link
-  url: /2026/09/20/sk
+  url: /2026/09/20/skip-start.html
 ---

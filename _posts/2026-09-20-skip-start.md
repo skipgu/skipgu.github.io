@@ -1,6 +1,5 @@
 ---
 title: New Academic Year with SKIP
-alt_title: SKIP at Kickoff with first year bachelor and master students
 sub_title: Find out what happened at the start of this academic year!
 
 author:
