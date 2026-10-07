@@ -2,6 +2,10 @@
 title: 2 weeks of Chalmers Hackathons
 sub_title: Find out about our experience during the hackathons!
 
+tags:
+  - Hackathon
+  - AI
+
 author:
     name: Adam Sindler, Tomas Zajíc, Suprita Reddy Cenkeramaddi & Sree Harshini Ravi
 
