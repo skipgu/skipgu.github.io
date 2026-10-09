@@ -2,10 +2,7 @@
 title: Spooky Game Jam 2026
 start_date: 2026-11-06 17:40:00
 end_date: 2026-11-08 20:00:00
-# event_link: 
-
-time_uncertain: true # displays TBD for the hour, date is still displayed
-date_uncertain: true # displays TBD for the whole date section but orders events based on the given date comparison 
+event_link: https://itch.io/jam/spooky-game-jam-26
 
 location:
   name: Alfons, Hus Jupiter, Campus Lindholmen
