@@ -2,6 +2,10 @@
 title: New Academic Year with SKIP
 sub_title: Find out what happened at the start of this academic year!
 
+tags:
+  - Workshop
+  - OOPsex
+  
 author:
     name: Adam Sindler & Tomas Zajíc
 comments: false

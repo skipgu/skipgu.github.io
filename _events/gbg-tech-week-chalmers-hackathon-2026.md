@@ -13,7 +13,7 @@ tags:
   - Chalmers
   - Non-SKIP
   
-#related_blogs:
-#  title: Link
-#  url: /2026/10/14/gbg-tech-week-chalmers-hackathon-2026.html
+related_blogs:
+  title: Link
+  url: /2026/10/07/chalmers-autumn-hackathons-2026.html
 ---
