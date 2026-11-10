@@ -2,7 +2,7 @@
 title: NASA's Space Apps Challenge 2026 SEM Edition
 start_date: 2026-11-14 10:00:00
 end_date: 2026-11-15 21:00:00
-#event_link: https://orbi.io/l/1ET0ylqPsmcszDrX
+event_link: https://orbi.io/l/1ET0ylqPsmcszDrX
 
 location:
   name: Alfons, Hus Jupiter, Campus Lindholmen
