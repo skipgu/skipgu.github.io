@@ -11,4 +11,7 @@ location:
 tags:
   - Game Jam
   
+related_blogs:
+  title: Link
+  url: /2026/11/10/spooky-game-jam-2026.html
 ---
