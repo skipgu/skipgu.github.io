@@ -13,5 +13,5 @@ tags:
 
 related_blogs:
   title: Link 
-  #: /2026/11/18/nasa-spaceapps-challenge-2026.html
+  url: /2026/11/18/nasa-spaceapps-challenge-2026.html
 ---
