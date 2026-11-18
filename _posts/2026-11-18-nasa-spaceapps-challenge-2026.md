@@ -35,11 +35,11 @@ Thank you all for participating in the **SEM Edition of the NASA Space Apps Chal
 In Categories:
 - **Technical Complexity and Use of Data**: **Unknown Entities**
   - 2nd year SEM students who worked on an ambitious challenge - how to create a navigation system on Mars.
-- **Real-life Applications**: **Junior Jr Bosses**
+- **Real-life Application**: **Junior Jr Bosses**
   - 1st year SEM students who just started university 2 month before the hackathon. They have worked on a project that dealt with the Astronaut's health and data, a system giving the Astronaut a way of how to log their health data and get advice back.
 
 **Congrats to all the winners and participants for creating stunning projects!**
 
-![Unknown Entities - Winners](/assets/posts/nasa-hackathon-2026/unknown-entities.png)
+![Unknown Entities - Winners](/assets/posts/nasa-hackathon-2026/unknown-entities.jpg)
 
-![Junior Jr Bosses - Winners](/assets/posts/nasa-hackathon-2026/junior-jr-bosses.png)
+![Junior Jr Bosses - Winners](/assets/posts/nasa-hackathon-2026/junior-jr-bosses.jpg)
