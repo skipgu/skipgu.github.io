@@ -22,11 +22,11 @@ We are happy that we had a variety of representation from both Bachelors and Mas
 - **Máté Stier** - a 3rd year SEM student and a Technical Lead in SKIP representing the **Technical** aspect
 - **Taylor Mohylsky** - a Business Developer at Chalmers' Founders Loft representing the **Business** aspect
 
-![SEM students working 1](/assets/posts/nasa-hackathon-2026/students-working.jpeg)
+![SEM students working 1](/assets/posts/nasa-hackathon-2026/students-working.jpg)
 
-![SEM students working 2](/assets/posts/nasa-hackathon-2026/students-working-2.jpeg)
+![SEM students Presenting](/assets/posts/nasa-hackathon-2026/students-presenting.jpg)
 
-![SEM students presenting](/assets/posts/nasa-hackathon-2026/students-presenting.JPG)
+![SEM students Presenting 2](/assets/posts/nasa-hackathon-2026/students-presenting-2.jpg)
 
 More photos can be found on our Social Media.
 
