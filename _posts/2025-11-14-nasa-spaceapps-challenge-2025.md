@@ -4,6 +4,7 @@ sub_title: SEM's participation at the 2025 NASA International Space Apps Challen
 
 tags:
   - Hackathon
+  - AI
 
 author:
     name: Tomas Zajic
